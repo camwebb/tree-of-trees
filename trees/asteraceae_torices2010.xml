@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>asteraceae_torices2010</phyloname>
+    <rootname>asteraceae_torices2010</rootname>
+    <source>
+	<pub>
+      <citation>
+		Torices, R. 2010. Adding time-calibrated branch lengths to the Asteraceae supertree. Journal of Systematics and Evolution.  doi: 10.1111/j.1759-6831.2010.00088.x</citation>
+    </pub>
+	</source>
+    <notes>
+      Webb removed Calyceraceae to preserve APGIII backbone.  Removed internal clade names. Added 2, 3, 4 to some duplicate taxa.
+    </notes>
+    <codedby>Ruben Torices</codedby>
+    <codeddate>2010-07-01</codeddate>
+  </pmmd> 

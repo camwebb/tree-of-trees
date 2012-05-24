@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd version="0.3" xmlns="http://svn.phylodiversity.net/tot/pmmd/">
+  <phyloname>R20091120</phyloname>
+  <rootname>euphyllophyte</rootname>
+  <source>
+	<megatree>Including the supertree by Marty Wojciechowski and Matt Lavin
+	(fabaceae_lavin2009), and APG III.
+	</megatree>
+  </source>
+  <codedby>Cam Webb</codedby>
+  <codeddate>2009-11-20</codeddate>
+</pmmd>

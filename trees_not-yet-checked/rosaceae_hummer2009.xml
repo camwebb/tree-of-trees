@@ -1,0 +1,27 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>rosaceae_hummer2009</phyloname>
+        <rootname>rosaceae</rootname>
+        <source collapsed="N" pruned="N" plucked="Y" analysis="MP"
+	    consensus="no">
+          <pub>
+            <citation> Hummer, K. E. and J. Janick. 2009. Rosaceae: Taxonomy, Economic Importance,
+Genomics.  Plant Genetics and Genomics 6(1): 1-17. 
+         </citation>
+            <figure>2</figure>
+          </pub>
+        </source>
+        <notes>  Parsimonious tree derived from the cladistic analysis of 125 combined characters (61
+non-molecular + 64 from molecular tree branches (ndhF, rbcL, nrITS). Adapted from:
+Dickinson et al. (2002). The colors represent traditional subfamilies (red = maloideae;
+blue = spiraeoideae; green = amygdaloideae; pink = rosoideae). Ceanothus and Rhamnus
+are outgroup taxa. The classification to tribes are as proposed by Takhtajan (1997):
+(Adenostomateae, Amygdaleae, Cercocarpeae, Dryadeae, Exochordeae, Geeae, Crataegeae,
+Gillenieae, Holodisceae, Kageneckieae, Kerrieae, Lindleyieae, Maleae, Neillieae, Osmaronieae,
+Potentilleae, Prinsepieae, Purshieae, Sorbarieae, Spiraeeae). Colored names outside of brackets
+correspond to traditional subfamilies, black names to subfamilies proposed by Takhtajan (1997) 
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>10 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

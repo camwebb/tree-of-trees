@@ -1,0 +1,29 @@
+﻿  <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>asteraceae_kim1998.c</phyloname>
+        <rootname>asteraceae</rootname>
+        <source collapsed="Y" pruned="N" plucked="N" analysis="MP"
+	    consensus="no">
+          <pub>
+            <citation> 
+			Kim, H-G. et al. 1998. Molecular evidence for an African origin of the Hawaiian endemic
+Hesperomannia (Asteraceae). PNAS 95: 15440-15445. 
+            </citation>
+            <figure>1</figure>
+          </pub>
+        </source>
+        <notes> ndhF tree of the Asteraceae showing the
+tribal placement of Hesperomannia (see arrow). This is
+one of 180 equally parsimonious trees with 1,587 steps,
+a consistency index of 0.596, and retention index of
+0.564. Numbers above and below the nodes indicate
+numbers of supporting characters and bootstrap support,
+respectively. Dashed lines indicate nodes that
+collapse in the strict consensus tree. Brackets show tribal
+and subfamilial classification following Jansen and Kim
+(23). A, Barnadesioideae; B, Cichorioideae; C, Asteroideae.</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>28 Sep 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>
+

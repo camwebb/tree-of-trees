@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3"> 
+  <phyloname>proteaceae_mast2008</phyloname> 
+  <rootname>proteaceae</rootname> 
+  <source collapsed="N" pruned="N" plucked="Y"> 
+    <pub> 
+      <citation>
+	Mast, A R., Willis, C L., Jones, E H., Downs, K M. and Weston,
+	P H. 2008. A smaller Macadamia from a more vagile tribe:
+	inference of phylogenetic relationships, divergence times, and
+	diaspore evolution in Macadamia and relatives (tribe
+	Macadamieae; Proteaceae). American Journal of Botany
+	95(7):843-870
+      </citation> 
+      <figure>6</figure> 
+    </pub> 
+  </source> 
+  <notes>
+    The phylogram shows the mean branch lengths from the posterior
+    probability density for the data.
+  </notes> 
+  <codedby>Subekti Sulistyawati</codedby> 
+  <codeddate>2009-03-02</codeddate>  
+</pmmd> 

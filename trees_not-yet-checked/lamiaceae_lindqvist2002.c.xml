@@ -1,0 +1,15 @@
+﻿  <?xml version="1.0" encoding="utf-8" ?> 
+- <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>lamiaceae_lindqvist2002</phyloname> 
+  <rootname>lamiaceae</rootname> 
+- <source collapsed="Y" pruned="Y" plucked="Y" analysis="MP" consensus="no">
+- <pub>
+  <citation>Lindqvist, C. and V. A. Albert. 2002. ORIGIN OF THE HAWAIIAN ENDEMIC MINTS WITHIN NORTH AMERICAN STACHYS (LAMIACEAE). American Journal of Botany 89(10): 1709-1724.</citation> 
+  <figure>1, 5</figure> 
+  </pub>
+  </source>
+  <notes>Fig. 5. Phylogeny of Stachys sensu lato based on total available evidence. A phylogram of one of four most-parsimonious trees based on combined rbcL, trnL intron, and 5S-NTS sequence data is shown. Numbers of unambiguous nucleotide substitutions are shown above branches, and parsimony jackknife values above 50% are shown below branches. Branches that collapse in the strict consensus tree are shown with stippled lines. Numbers following taxon names refer to individual accessions.</notes> 
+  <codedby>Megan Bartlett</codedby> 
+  <codeddate>3 Oct 2011</codeddate> 
+  <newick>(a,(b,c)subclade)taxon;</newick> 
+  </pmmd>

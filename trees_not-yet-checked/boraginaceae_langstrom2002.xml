@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>boraginaceae_langstrom2002</phyloname>
+        <rootname>boraginaceae</rootname>
+        <source collapsed="N" pruned="N" plucked="Y" analysis="MP"
+	    consensus="no">
+          <pub>
+            <citation> Langstrom, E. and M. W. Chase. 2002. Tribes of Boraginoideae (Boraginaceae) and placement
+of Antiphytum, Echiochilon, Ogastemma and Sericostoma: A phylogenetic analysis based on atpB plastid DNA sequence data. Plant Systematics and Evolution 234: 137-153. 
+          </citation>
+            <figure>1</figure>
+          </pub>
+        </source>
+        <notes>  One of the 779 most parsimonious trees (879
+steps, CI=0.60, RI=0.76) from analysis of the atpB
+data from 50 taxa. Node B corresponds to Boraginoideae.
+Numbers above the branches are bootstrap
+percentages, the nodes lacking numbers received less
+that 50% bootstrap support. Numbers below the
+branches are estimated numbers of substitutions
+(ACCTRAN optimisation). Groups not present in
+the strict consensus tree are indicated with dotted
+lines. Classification according to Al-Shehbaz (1991)
+and Riedl (1997) in Table 1 abbreviated as follows:
+the tribes of Boraginoideae: Bo Boraginae, Cy
+Cynoglosseae, Er Eritrichieae, Li Lithospermeae,
+My Myosotideae, Td Trichodesmeae, Tr Trigonotideae;
+the subfamilies of Boraginaceae except Boraginoideae:
+BC Cordioideae, BE Ehretioideae, BH
+Heliotropioideae; HH Hydrophylleae, HN Nameae,
+HP Phacelieae, HW Wiganideae. Alternative or
+earlier classifications are written within parenthesis
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>7 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

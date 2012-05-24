@@ -1,0 +1,21 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>fabaceae_kajita2001.c</phyloname>
+        <rootname>fabaceae</rootname>
+        <source collapsed="Y" pruned="N" plucked="Y" analysis="MP"
+	    consensus="STRICT">
+          <pub>
+            <citation> 
+Kajita, T. et al. 2001. rbcL and Legume Phylogeny, with Particular Reference to Phaseoleae,
+Millettieae, and Allies. Systematic Botany 26(3): 515-536. 
+            </citation>
+            <figure>2-5</figure>
+          </pub>
+        </source>
+        <notes> Fig. 1. Position and composition of Fabales in the rbcL strict consensus topology. Values for strict consensus bootstrap
+are shown above branches, parsimony jackknife values below branches.
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>5 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

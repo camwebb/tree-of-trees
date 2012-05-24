@@ -1,0 +1,23 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>gentianaceae_mansion2004</phyloname>
+        <rootname>gentianaceae</rootname>
+        <source collapsed="Y" pruned="N" plucked="Y" analysis="MP"
+	    consensus="no">
+          <pub>
+            <citation> Mansion, G. and L. Struwe. 2004. 
+Generic delimitation and phylogenetic relationships within the subtribe Chironiinae (Chironieae: Gentianaceae), with special reference to Centaurium: 
+evidence from nrDNA and cpDNA sequences. Molecular Phylogenetics and evolution 32(3): 951-977. 
+         </citation>
+            <figure>3</figure>
+          </pub>
+        </source>
+        <notes> One of the 20 most parsimonious trees (L=1890/CI=0.56/RI=0.77) 
+		obtained from the combined (ITS + trnLF) data set. Jackknife values >50% are given below the branches. Numbers 1–5 correspond to the tribe Exaceae, Potalieae, Gentianeae, Helieae, and Chironieae, respectively. 
+		Clades C1–C4 represent the polyphyletic genus Centaurium: C1=Centaurium, C2=Gyrandra, C3=Schenkia, and C4=Zeltnera. 
+		Branches that collapse in the strict consensus tree are indicated by Ø.
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>9 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

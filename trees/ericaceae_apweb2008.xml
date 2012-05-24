@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd version="0.4" xmlns="http://svn.phylodiversity.net/tot/pmmd/" >
+  <phyloname>ericaceae_apweb2008</phyloname>
+  <rootname>ericaceae</rootname>
+  <source>
+    <apweb>
+      <version>9</version>
+      <downdate>2008-11-06</downdate>
+    </apweb>
+  </source>
+  <codedby>Cam Webb</codedby>
+  <codeddate>2008-11-12</codeddate>
+</pmmd>

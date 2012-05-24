@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+    <phyloname>malvales_apweb2009</phyloname>
+    <rootname>malvales</rootname>
+    <source>
+      <apweb>
+        <version>9</version>
+        <downdate>2009-10-22</downdate>
+      </apweb>
+    </source>
+    <notes>
+      APG3 adds Cytinaceae as sister to the Muntingiaceae
+      and includes the Cochlospermaceae and Diegodendraceae within Bixaceae;
+      resolution below family level pruned
+    </notes>
+    <codedby>Steve Hovick</codedby>
+    <codeddate>2009-10-29</codeddate>
+  </pmmd> 

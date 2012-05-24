@@ -1,0 +1,22 @@
+﻿  <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>amaranthaceae_mullerborsch2005</phyloname>
+        <rootname>amaranthaceae</rootname>
+        <source collapsed="N" pruned="N" plucked="N" analysis="MP"
+	    consensus="STRICT">
+          <pub>
+            <citation> 
+			Muller, K. and T. Borsch. 2005.  Phylogenetics of Amaranthaceae Based on matK/trnK Sequence Data: Evidence from
+Parsimony, Likelihood, and Bayesian Analyses. Annals of the Missouri Botanical Garden 92: 66-102
+            </citation>
+            <figure>3b</figure>
+          </pub>
+        </source>
+        <notes> Figure 1 (pages 80-81). Strict consensus tree from the parsimony analyses both with and without illelusion of coded indels (without indels: 5360 steps, CI = 0.487, RI = 0.656, RC = 0.320; with indels: 5574 steps, CI = 0.501, RI = 0.664, RC = ().333). Bootstrap values are given above branches, and Bremer support below branches (left number = without indels, right number = including indel characters). a (page 80). Section of the tree fotusing on Chenopo- diaceae, closely related Caryophyllales, and outgroup. The classification of Chenopodiaceae follows Kuhn et al. (1993) and Kadereit c-t a1. (2003). p.p. = pro parte. b (page 81). Section of the tree focusing on Amaranthaceae; the clas- sification follows Townsend (1993). P = Pseudoplantageae; Gomph = Gomphreninae; Froel = Froelichiinae. 
+		From left to right, subtribes, tribes, and subfamilies are indicated.</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>26 Sep 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>
+
+

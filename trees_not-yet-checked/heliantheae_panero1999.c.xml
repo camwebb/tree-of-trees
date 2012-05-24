@@ -1,0 +1,18 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>heliantheae_panero1999.c</phyloname>
+        <rootname>heliantheae</rootname>
+        <source collapsed="Y" pruned="Y" plucked="Y" analysis="MP"
+	    consensus="no">
+          <pub>
+            <citation>  Panero, J. L., Jasen, R. K. and J. A. Clevinger. 1999. Phylogenetic relationships of subtribe Ecliptinae (Asteraceae: Heliantheae) based on chloroplast DNA restriction site data. 
+         American Journal of Botany 86: 413-427. </citation>
+            <figure>1</figure>
+          </pub>
+        </source>
+        <notes> One of 30 517 equally parsimonious Wagner trees (drawn as a phyllogram) of cpDNA restriction site data using 16 endonucleases. Thick lines denote branches that collapse in the strict consensus tree. Numbers of site changes shown above each branch; bootstrap values above 50 shown below the branches. Names in boldface represent members of subtribe Ecliptinae sensu Robinson (1981)  . The cladogram has 1730 steps, a Consistency Index of 0.364 (excluding autapomorphies), and a retention Index of 0.776. 
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>12 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd  xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>rubiaceae_bremer2000</phyloname>
+  <rootname>rubiaceae</rootname>
+  <source analysis="MP" consensus="STRICT">
+    <pub>
+      <citation>
+        Bremer, B; Manen, J-F (2000) Phylogeny and classification of
+        the subfamily Rubioideae (Rubiaceae). Plant Systematics and
+        Evolution 225: 43-72
+      </citation>
+      <figure>3</figure>
+    </pub>
+  </source>
+  <notes>
+    Strict consensus tree of two equally parsimonious trees of
+    Rubioideae based on rbcL and atpB-rbcL sequences, after a
+    heuristic search with 100 replicates and TBR branch
+    swapping. Numbers above nodes indicate bootstrap values (>50%) of
+    1000 replicates with TBR branch swapping, all bootstrap values
+    >50% are indicated, Vertical bars and corresponding letters (first
+    three letters of the tribes cf. Table 2) represent the tribal
+    classification according to Brerner and Manen.
+  </notes>
+</pmmd>

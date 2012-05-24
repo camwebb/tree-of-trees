@@ -1,0 +1,19 @@
+﻿  <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>ericaceae_quinn2003.c</phyloname>
+        <rootname>ericaceae</rootname>
+        <source collapsed="Y" pruned="Y" plucked="Y" analysis="MP"
+	    consensus="STRICT">
+          <pub>
+            <citation> 
+			 Quinn, C. J. et al. 2003. A molecular estimate of the phylogeny of Styphelieae (Ericaceae). Australian Systematic Botany 16: 581-594. 
+            </citation>
+            <figure>1</figure>
+          </pub>
+        </source>
+        <notes>   Strict consensus of 48397 trees of 1280 steps founf from heuristic searching of hte spacer data; consistency index excluding uninformative characters (CI) = 0.54, retention index (RI) = 0.81; rescaled consistency index (RC) = 0.49
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>4 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

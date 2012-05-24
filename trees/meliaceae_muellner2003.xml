@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>meliaceae_muellner2003</phyloname>
+  <rootname>meliaceae</rootname>
+  <source analysis="MP" consensus="STRICT">
+    <pub>
+      <citation>
+	Muellner AN, Samuel R, Johnson SA, Cheek M, Pennington TD, and
+	Chase MW (2003) Molecular phylogenetics of Meliaceae
+	(Sapindales) based on nuclear and plastid DNA
+	sequences. American Journal of Botany 90:471-480.
+      </citation>
+      <figure>5</figure>
+    </pub>
+  </source>
+  <notes>
+    Figure 5. Bootstrap consensus, maximum parsimony.  No additional
+    collapses
+  </notes>
+  <codedby>Cam Webb</codedby>
+  <codeddate>2005-12-31</codeddate>  
+</pmmd>

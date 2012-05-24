@@ -1,0 +1,23 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>asteraceae_funk2005</phyloname>
+        <rootname> goodeniaceae, calyceraceae </rootname>
+        <source collapsed="N" pruned="Y" plucked="Y" analysis="parsimony"
+	    consensus="no">
+          <pub>
+            <citation>  Funk, V. A. et al. 2005. Everywhere but Antarctica:
+Using a supertree to understand the diversity and distribution of the Compositae. Biol. Skr. 55:
+343-374.
+         </citation>
+            <figure>5-9</figure>
+          </pub>
+        </source>
+        <notes> Fig. 5. The supertree (Fig. 4, as separate foldout) has been reduced in size by having tribes as terminal taxa. Also, the number
+of biogeographic areas has been reduced by combining areas.
+
+See paper for detailed description of supertree assembly and constituent trees. 
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>12 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd version="0.3" xmlns="http://svn.phylodiversity.net/tot/pmmd/">
+  <phyloname>R20100701</phyloname>
+  <rootname>euphyllophyte</rootname>
+  <source>
+	<megatree>Including the supertree asteraceae_torices2010 and APG III.
+	</megatree>
+  </source>
+  <codedby>Cam Webb</codedby>
+  <codeddate>2010-07-01</codeddate>
+</pmmd>

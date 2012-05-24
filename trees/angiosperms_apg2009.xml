@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd version="0.2" xmlns="http://svn.phylodiversity.net/tot/pmmd/" >
+  <phyloname>angiosperms_apg2009</phyloname>
+  <rootname>angiosperms</rootname>
+  <source>
+    <pub>
+      <citation>
+		Angiosperm Phylogeny Group.  An update of the Angiosperm
+		Phylogeny Group classification for the orders and families of
+		flowering plants: APG III.  2009.  Botanical Journal of the
+		Linnean Society 161: 105-121.
+      </citation>
+    </pub>
+  </source>
+	<notes>
+	  Additional internal node names added.  Unplaced families near
+	  garryales added as unplgarsol (Webb).
+	</notes>
+  <codedby>Ken Whitney</codedby>
+  <codeddate>2009-11-04</codeddate>
+</pmmd>

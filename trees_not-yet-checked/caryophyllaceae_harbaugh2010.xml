@@ -1,0 +1,21 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>caryophyllaceae_harbaugh2010</phyloname>
+        <rootname>caryophyllaceae</rootname>
+        <source collapsed="N" pruned="N" plucked="Y" analysis="ML"
+	    consensus="STRICT">
+          <pub>
+            <citation> 
+Harbaugh-Reynaud, D. et al. 2010. 	A New Lineage-Based Tribal Classification of the Family Caryophyllaceae. International journal of plant sciences 171(2): 185-198. 
+            </citation>
+            <figure>2</figure>
+          </pub>
+        </source>
+        <notes> Maximum likelihood (ML) phylogeny from analysis of combined matK, trnL-F, and rps16 sequences. Numbers above the branches
+represent ML bootstrap (BS) values, while those below are for maximum parsimony (MP) BS values (a missing value represents an MP BS value of
+<50). Branches with dashed lines collapse in the MP strict consensus tree. Circled letters indicate major clades discussed in the text.
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>9 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

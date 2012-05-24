@@ -1,0 +1,220 @@
+#!/bin/gawk -f
+# ^^^^^^^^^ this must point to your gawk executable (get GAWK at www.gnu.org)
+
+# Script to join newick files into a single megatree.  Written for the
+# phylomatic project, but can be used as a general solution
+
+# Cam Webb <cwebb@oeb.harvard.edu>
+
+# To use: cd to the trees/ directory and type ../tools/makemega
+#         there must be a config file called makemega.config in trees/
+
+# TO DO: modify so that an internal node name will be substituted by
+# an external tree, if that tree exists, assuming more information in
+# the external tree.
+
+BEGIN{
+
+  # Conservative switch
+
+  for (i = 1; i < ARGC ; i++) 
+    {
+      # print ARGV[i];
+      if (ARGV[i] == "-c") {MODE = "C"}
+      else if (ARGV[i] == "--fam") {FAMONLY = 1}
+    }
+
+  # read config file
+  while ((getline < "makemega.config") > 0)
+    {
+      if (($0 !~ /^\ *\#/) && ($0 != ""))
+        {
+          # tidy lines
+          gsub(/\ /,"",$0); 
+          if (substr($0,1,4)=="ROOT") {usefile["root"] = substr($0,6) ".new"}
+          else
+            {
+              split($0, tmp, "_");
+              cfgfile[tmp[1]] = $0;
+            }
+        }
+    }
+
+  # for (i in cfgfile) {print i , cfgfile[i]}
+
+  RS = "\x04";
+
+  # read files:
+  "ls" | getline tmp2;
+  nfiles = split(tmp2, file, "\n");
+
+  for (i = 1; i < nfiles; i++)
+    {
+      # for each newick file in the directory
+      if (file[i] ~ /\.new$/) 
+        {
+          gsub(/\.new$/,"",file[i]);
+          split(file[i], tmp, "_");
+          tax = tmp[1]; # tax is the clade name
+
+          if (gsub(/\.c$/,"",file[i]) == 1) {type[i] = "C"}
+          else {type[i] = ""}
+
+          # if the mode is conservative
+          if (MODE=="C")
+            {
+              # does taxon occur in config?
+              if ((file[i] == cfgfile[tax]) && (type[i]=="C"))
+                {
+                  usefile[tax] = cfgfile[tax] ".c.new";
+                  cused[tax] = 1; cfgused[tax] = 1;
+                  # will override an R file
+                }
+              # does taxon occur in config? R file used if no C config file
+              # overrides C from non-config
+              else if ((file[i] == cfgfile[tax]) && (type[i]=="") && \
+                       (!cfgused[tax]))
+                {
+                  usefile[tax] = cfgfile[tax] ".new";
+                  cfgused[tax] = 1;
+                }
+              # no config file set
+              else if ((type[i]=="C") && !cfgused[tax])
+                {
+                  usefile[tax] = file[i] ".c.new";
+                  cused[tax] = 1;
+                }
+              else if ((usefile[tax] == "") && (type[i] == "")) 
+                # if it has yet to be set
+                {
+                  usefile[tax] = file[i] ".new";
+                }
+            }
+          # if the mode is normal
+          else
+            {
+              if ((file[i] == cfgfile[tax]) && (type[i] == ""))
+                { 
+                  usefile[tax] = cfgfile[tax] ".new";
+                }
+              else if ((usefile[tax] == "") && (type[i] == ""))
+                # if it has yet to be set
+                {
+                  usefile[tax] = file[i] ".new";
+                }
+            }
+        }
+    }
+
+
+  # start at root
+
+  # set default
+  if (usefile["root"] == "") {usefile["root"] = "root.new"}
+
+  while ((getline < usefile["root"]) > 0) { all = gensub(/[\'\n\ \t]/, "", "G", $0) }
+  
+
+  # repeat until no terms are unused (NB: one wasted cycle)
+  done = 0;
+  while (done == 0)
+    {
+      done = 1;
+
+      # find terminals
+      nterms = findterms(all);
+
+      # for (i = 0; i < nterms; i++) {print term[i] "\n"}
+
+      for (i = 0; i < nterms; i++)
+        {
+          if ((term[i] ~ /aceae/) && (FAMONLY)) { }
+          else if ((usefile[term[i]] != "") && (!used[term[i]]))
+            {
+              while ((getline < usefile[term[i]]) > 0) { 
+                part = gensub(/[\'\n\ \t;]/, "", "G", $0) ;
+              }
+              reg = "([(,])(" term[i] ")([:),[])" ; used[term[i]] = 1;
+              rep = "\\1" part "\\3";
+              all = gensub( reg, rep ,"G", all);
+              done = 0;
+            }
+        }
+    }
+
+  # strip all BLs
+  gsub(/:[0-9]+\.?[0-9]*/, "", all);
+
+  # print "checking doubles";
+  ckdblnames(all);
+
+  print all;
+
+  exit;
+}
+
+
+function findterms(newick,      i, x)
+{
+  i = 1; x = 0; term[x] = "";
+  while (i <= length(newick))
+    {
+      if ((substr(newick,i-1,1) ~ /[\(,]/) && \
+          (substr(newick,i,1)  !~ /[\(,]/))
+        {
+          while (substr(newick,i,1) !~ /[,:\)]/)
+            {
+              # print substr(newick,i,1) " ";
+              term[x] = term[x] substr(newick,i,1);
+              i++;
+            }
+          # print "\n" term[x] "\n";
+          x++; term[x] = ""; i++;
+        }
+      else 
+        {
+          # print substr(newick,i,1) " ";
+          i++;
+        }
+    }
+  return x;
+}
+          
+function ckdblnames(newick,      i, x, trm)
+{
+  i = 1; trm = "";
+  while (i <= length(newick))
+    {
+      if ((substr(newick,i-1,1) ~ /[\(,\)]/) &&     \
+          (substr(newick,i,1)  !~ /[\(,\)]/))
+        {
+          while (substr(newick,i,1) !~ /[,:;\)]/)
+            {
+              # print substr(newick,i,1) " ";
+              trm = trm substr(newick,i,1);
+              i++;
+            }
+          cnt[trm]++;
+          # print "\n" trm "\n";
+          trm = ""; i++;
+        }
+      else 
+        {
+          # print substr(newick,i,1) " ";
+          i++;
+        }
+    }
+
+  for (i in cnt) 
+    {
+      if (cnt[i] > 1) 
+        {
+          print "Taxon `" i "' found " cnt[i] " times; phylomatic will fail.";
+          willfail = 1;
+        }
+    }
+
+  if (willfail) { exit };
+
+}
+          

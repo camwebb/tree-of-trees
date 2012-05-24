@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>callicarpa_bramley2009</phyloname>
+  <rootname>callicarpa</rootname>
+  <source pruned="Y" plucked="Y" analysis="MP" consensus="STRICT">
+    <pub>
+      <citation>
+	Bramley, G. L. C., 2009. The genus Callicarpa (Lamiaceae) on Borneo.
+	Botanical Journal of the Linnean Society 159: 416-455
+      </citation>
+      <figure>1</figure>
+    </pub>
+  </source>
+  <notes>
+    Strict consensus of 12 trees of 536 steps resulting from maximum
+    parsimony analysis of combined data set of nuclear ribosomal
+    internal transcribed spacer (nrITS), partial matK and trnD-T
+    sequences.
+
+    CW: Note that Callicarpa appears to still be unplaced in Lamiaceae
+    (APweb 2008), and has not been yet been placed in this project.
+  </notes>
+  <codedby>Subekti Sulistyawati</codedby>
+  <codeddate>2009-03-30</codeddate>
+</pmmd>

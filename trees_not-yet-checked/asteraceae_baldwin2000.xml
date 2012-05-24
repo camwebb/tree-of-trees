@@ -1,0 +1,19 @@
+  <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>asteraceae_baldwin2000</phyloname>
+        <rootname>adenothemnus_validus, raillardella_pringlei</rootname>
+        <source collapsed="N" pruned="Y" plucked="N" analysis="MP"
+	    consensus="semi-strict">
+          <pub>
+            <citation> 
+			Baldwin, B. G. Adaptive radiation of the Hawaiian Silversword alliance: congruence and conflict of phylogenetic evidence from molecular and non-molecular investigations. In Molecular Evolution and Adaptive Radiation. Eds. T. J. Givnish and K. J. Sytsma. Cambridge, 2000. 
+            </citation>
+            <figure>3.1</figure>
+          </pub>
+        </source>
+        <notes> The semi-strict consensus of eight minimum-length trees from Fitch-parsimoney analysis of 18-26S nuclear ribosomal DNA (nrDNA) internal transcribed space (ITS) sequences in representatives of the Hawaiian silversword alliance. </notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>28 Sep 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>
+

@@ -1,0 +1,24 @@
+﻿  <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>rubiaceae_bremer2009</phyloname>
+        <rootname>rubiaceae</rootname>
+        <source collapsed="N" pruned="Y" plucked="Y" analysis="Bayes"
+	    consensus="90% majority-rule">
+          <pub>
+            <citation> 
+			Bremer, B. and T. Eriksson. 2009. TIME TREE OF RUBIACEAE: PHYLOGENY AND DATING THE FAMILY,
+SUBFAMILIES, AND TRIBES. International Journal of PLant Science 170(6): 766-793. 
+            </citation>
+            <figure>1-5</figure>
+          </pub>
+        </source>
+        <notes> Fig. 1 The 90% majority-rule consensus tree from the Bayesian analysis. Root portion with outgroups, first major splits, and part of Rubioideae.
+Clade posterior probabilities are indicated below branches. Tribal abbreviations are shown in bold capital letters above branches of the corresponding
+clades. LAS, Lasiantheae; URO, Urohylleae; OPH, Ophiorrhizeae; LUC, Luculieae; COP, Coptosapelteae. Cinchonoideae are shown in fig. 2.
+Ixoroideae are shown in figs. 3, 4. The subclade of Rubioideae labeled ‘‘Rubioideae cont.’’ is shown in figs. 5, 6.
+
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>3 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

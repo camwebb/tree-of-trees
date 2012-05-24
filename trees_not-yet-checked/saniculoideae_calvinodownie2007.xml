@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>saniculoideae_calvinodownie2007</phyloname>
+        <rootname>saniculoideae</rootname>
+        <source collapsed="N" pruned="Y" plucked="Y" analysis="MP"
+	    consensus="strict">
+          <pub>
+            <citation> 
+			 Calvino, C. I. and S. R. Downie. 2007. Circumscription and phylogeny of Apiaceae subfamily Saniculoideae based on chloroplast DNA sequences. 
+			 Molecular Phylogenetics and Evolution 44(1): 175-191. 
+            </citation>
+            <figure>3</figure>
+          </pub>
+        </source>
+        <notes> Strict consensus of 4320 minimal length 2249-step trees derived from equally weighted maximum parsimony analysis of 91 cpDNA trnQ-trnK  sequences plus 189 binary-scored alignment gaps (CIs = 0.7781 and 0.7215, with and without uninformative characters, respectively; RI = 0.9487). Numbers above the branches are bootstrap estimates for 100,000 replicate analyses using “fast” stepwise addition of taxa; values <50% are not indicated. Circled numbers below the branches correspond to the 24 recognized clades indicated in Table 3 and discussed in the text. </notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>28 Sep 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

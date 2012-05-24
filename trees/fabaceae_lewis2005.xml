@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.2">
+  <phyloname>fabaceae_lewis2005</phyloname>
+  <rootname>fabaceae</rootname>
+  <source>
+    <pub>
+      <citation>
+        Lewis, G., et al. 2005. Legumes of the World. Royal Botanic Gardens, 
+	Kew.
+      </citation>
+      <figure>all</figure>
+    </pub>
+  </source>
+  <codedby>Matt Lavin</codedby>
+  <codeddate>2007-06-05</codeddate>
+</pmmd>

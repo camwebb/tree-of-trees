@@ -1,0 +1,23 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>cyperaceae_muasya2009</phyloname>
+        <rootname>cyperaceae</rootname>
+        <source collapsed="Y" pruned="Y" plucked="Y" analysis="MP"
+	    consensus="STRICT">
+          <pub>
+            <citation>  Muasya, A. M. et al. 2009. Phylogeny of Cyperaceae Based on DNA Sequence
+Data: Current Progress and Future Prospects. Botanical Review 75: 2-21. 
+			</citation>
+            <figure>1-3</figure>
+          </pub>
+        </source>
+        <notes> Maximum parsimony strict consensus tree of Cyperaceae, showing the outgroup and Cyperaceae
+tribes Hypolytreae (Hy), Chrysitricheae (Ch), Trilepideae (Tr), Schoeneae (Sc), Sclerieae (Scl),
+Bisboeckelereae (Bi) and Cryptangieae. Goetghebeur’s (1998) classification and the proposed classification
+are marked by grey and black bars respectively. Bootstrap support values shown as weak (*=50–
+74%), moderate (**=75–89%) and strong (***=90–100%)
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>12 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

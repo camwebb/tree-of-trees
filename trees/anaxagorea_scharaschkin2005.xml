@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3"> 
+  <phyloname>anaxagorea_scharaschkin2005</phyloname>
+  <rootname>anaxagorea</rootname>
+  <source collapsed="N" pruned="N" plucked="N" analysis="MP" consensus="STRICT">
+    <pub>
+      <citation>
+	Scharaschkin,T. and J.A. Doyle. 2005. Phylogeny and historical
+	biogeography of Anaxagorea (Annonaceae) using morphology and
+	non-coding chloroplast sequence data. Systematic Botany
+	30: 712-735
+      </citation>
+      <figure>8</figure>
+    </pub>
+  </source>
+  <notes>
+    Strict consensus of four trees obtained from the combined
+    morphological and molecular data set using maximum parsimony, with
+    decay and bootstrap values shown at nodes.
+  </notes>
+  <codedby>Rindita</codedby>
+  <codeddate>2007-12-04</codeddate>
+</pmmd>

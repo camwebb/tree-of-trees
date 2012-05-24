@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd version="0.3" xmlns="http://svn.phylodiversity.net/tot/pmmd/">
+  <phyloname>fabaceae_lavin2009</phyloname>
+  <rootname>fabaceae</rootname>
+  <source>
+	<other>Supertree by Marty Wojciechowski of Arizona State
+	University (Martin.Wojciechowski@asu.edu), refined by Matt Lavin
+	(mlavin@montana.edu) who also included internal node names (some
+	of them can be age-constrained from fossil evidence).
+	</other>
+  </source>
+  <codedby>Martin Wojciechowski and Matt Lavin</codedby>
+  <codeddate>2009-11-18</codeddate>
+</pmmd>

@@ -1,0 +1,23 @@
+﻿  <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>malvatheca_baum2004</phyloname>
+        <rootname>malvatheca</rootname>
+        <source collapsed="Y" pruned="N" plucked="N" analysis="MP"
+	    consensus="no">
+          <pub>
+            <citation> 
+			Baum, D. A. et al. 2004. PHYLOGENETIC RELATIONSHIPS OF MALVATHECA (BOMBACOIDEAE AND MALVOIDEAE; MALVACEAE SENSU LATO) AS INFERRED FROM PLASTID DNA SEQUENCES.
+			American Journal of Botany 91(11): 1863-1871. 
+            </citation>
+            <figure>1</figure>
+          </pub>
+        </source>
+        <notes>s Maximum parsimony (MP) and maximum likelihood (ML) trees. One of 356 MP trees (A) and the ML tree (B) from the combined matK and ndhF
+data. The MP bootstrap support values (from 10 000 heuristic searches) are given on the MP tree and branch lengths are drawn proportional to number of
+mapped changes (MP: ACCTRAN optimization). The ML tree is a phylogram with branches drawn proportional to the estimated average number of substitutions
+per site (under the GTR 1 G model), with a scale bar provided. Branches tested for changes in rates under a local clock model are labeled AH.</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>26 Sep 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>
+

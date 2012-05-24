@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>betulaceae_chen1999</phyloname>
+  <rootname>betulaceae</rootname>
+  <source analysis="MP">
+    <pub>
+      <citation>Chen Z. 1999. Phylogeny and evolution of the
+      Betulaceae as inferred from DNA sequences, morphology, and
+      paleobotany.  Plant Systematics and Evolution. 86:1168-1181
+      </citation>
+      <figure>2</figure>
+    </pub>
+  </source>
+  <notes>Caption: Single most parsimonious tree for the Betulaceae
+  based on nrDNA ITS sequences with gaps are treated as missing
+  data. Length = 374 steps. CI = 0.791, RI = 0.788. Base substitutions
+  are indicated above branches. Bootstrap values are indicated below
+  branches. Nothofagus antarctica is the designated outgroup." Notes:
+  Nothofagus outgroup was pruned </notes>
+  <codedby>Karla Sartor</codedby>
+  <codeddate>2008-01-09</codeddate>  
+  <newick></newick>
+</pmmd>

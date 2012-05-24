@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>menispermaceae_Wang2007</phyloname>
+        <rootname>menispermaceae</rootname>
+        <source collapsed="Y" pruned="N" plucked="N" analysis="ML"
+	    consensus="N">
+          <pub>
+            <citation>Wang, W., Wang, H-C., Z-D. Chen 2007 
+			Phylogeny and morphological evolution of tribe Menispermeae
+(Menispermaceae) inferred from chloroplast and nuclear sequence Perspectives in Plant Ecology, Evolution and Systematics 8 141-154</citation>
+            <figure>2</figure>
+          </pub>
+        </source>
+        <notes> ML tree inferred from the matK and trnL-F data. The results of ML bootstrap analysis are shown above the branches,
+whereas the values below the branches result from MP bootstrap analysis. Bootstrap values 450% are shown. The thick branches
+represent 495% Bayesian posterior probability. *Indicates the nodes not found in the strict consensus tree. Kesslers (1993)
+classi?cation is shown on the right </notes>
+        <codedby>Rico Ardy</codedby>
+        <codeddate>6 October 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

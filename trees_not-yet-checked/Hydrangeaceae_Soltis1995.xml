@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>Hydrangeaceae_Soltis1995</phyloname>
+        <rootname>Diospyros, Sarracenia, Roridula, and Fouquier</rootname>
+        <source collapsed="N" pruned="N" plucked="N" analysis="MP"
+	    consensus="N">
+          <pub>
+            <citation>
+		Soltis, D.E., Xiang, Q-Y., L. Hufford 1995  
+		RELATIONSHIPS AND EVOLUTION OF HYDRANGEACEAE BASED ON RBCL SEQUENCE DATA American Journal of Botany 82(4): 504-514.           </citation>
+            <figure>1</figure>
+          </pub>
+        </source>
+        <notes>One of 18 shortest trees resulting from parsimony 
+		analysis of rbcL sequences of Hydrangeaceae and other members 
+		of the Cornaceous clade (length = 681 steps, 
+		consistency index = 0.561, retention index = 0.692). 
+		The tree is rooted using Diospyros, Sarracenia, Roridula, 
+		and Fouquieria as outgroups (these taxa were chosen as outgroups
+		based on the results of Chase et al., 1993 and Xiang et al., 1993).
+		Numbers above the lines indicate the number of nucleotide 
+		substitutions supporting each branch. Numbers in parentheses
+		above the lines represent decay values. Bold numbers below 
+		the lines indicate the percentage of occurrence of each 
+		monophyletic group in the results of 100 bootstrap samples.
+		Nodes that are not present in all shortest trees are indicated
+		by black arrows.</notes>
+        <codedby>Rico Ardy</codedby>
+        <codeddate>4 October 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>
+
+

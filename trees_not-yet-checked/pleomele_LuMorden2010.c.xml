@@ -1,0 +1,15 @@
+﻿  <?xml version="1.0" encoding="utf-8" ?> 
+ <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>pleomele_LuMorden2010</phyloname> 
+  <rootname>pleomele</rootname> 
+ <source collapsed="Y" pruned="N" plucked="N" analysis="MP" consensus="STRICT">
+ <pub>
+  <citation>Lu, P-L. and C. Morden. 2010. Phylogenetics of the plant genera Dracaena and Pleomele (Asparagaceae). Journal of Plant Science 7: 64-72.</citation> 
+  <figure>1</figure> 
+  </pub>
+  </source>
+  <notes>Strict consensus of the maximum parsimony tree with 33 taxa resolved using trnL-trnF sequence data. Posterior probability values/ Bootstrap percentages > 50% are above branches and decay indices are below branches.</notes> 
+  <codedby>Megan Bartlett</codedby> 
+  <codeddate>26 Sep 2011</codeddate> 
+  <newick>(a,(b,c)subclade)taxon;</newick> 
+  </pmmd>

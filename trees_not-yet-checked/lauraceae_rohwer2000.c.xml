@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+- <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>lauraceae_rohwer2000</phyloname> 
+  <rootname>lauraceae</rootname> 
+- <source collapsed="Y" pruned="N" plucked="Y" analysis="MP" consensus="50% majority">
+- <pub>
+  <citation>Rohwer, J. G. 2000. Toward a Phylogenetic Classification of the Lauraceae: Evidence from matK Sequences. Systematic Botany 25 (1): 60-71.</citation> 
+  <figure>2</figure> 
+  </pub>
+  </source>
+  <notes>50% majority consensus of the 100 equally parsimonious mtatK trees. Majority percentages above the lines, bootstrap values below the lines. Columns on the right show (1.) groups discussed in the text, (2.) inflorescence structures (bot. = botryoid, from winter buds; inv. = involucrate), and (3.) distribution of the genus and the species (boldface). AF = Africa, AS = Asia, AU = Australia, CI = Canary Islands, MA = Madagascar, ME Mediterranean, NA = North America, NT = neotropical plus South American temperate, NZ = New Zealand, PT pantropical. The bars on the far right show the inferred distribution of the ancestors of the major clades.</notes> 
+  <codedby>Megan Bartlett</codedby> 
+  <codeddate>10 Oct 2011</codeddate> 
+  <newick>(a,(b,c)subclade)taxon;</newick> 
+  </pmmd>

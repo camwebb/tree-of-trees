@@ -1,0 +1,23 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>poaceae_bouchenakkhelladi2008</phyloname>
+        <rootname>poaceae</rootname>
+        <source collapsed="Y" pruned="Y" plucked="Y" analysis="BAYES"
+	    consensus="STRICT">
+          <pub>
+            <citation>  Bouchenak- Khelladi, Y. et al. 2008. Large multi-gene phylogenetic trees of the grasses (Poaceae):
+Progress towards complete tribal and generic level sampling. Molecular Phylogenetics and Evolution 47: 488-505. 
+         </citation>
+            <figure>2</figure>
+          </pub>
+        </source>
+        <notes> Bayesian consensus tree of combined data sets from DS II where posterior probabilities are shown above the branches. Bootstrap values are shown
+below the branches on nodes with >50% support. Brachyp, Brachypodieae; Melic, Meliceae, Phaen, Phaenospermateae; Ampe, Ampelodesmeae; Nard,
+Nardeae, Brachy, Brachyelytreae; Chlo, Chlorideae; Cyno, Cynodonteae; Leptu, Leptureae; Erag, Eragrostideae; Orcu, Orcuttieae; Pappo,
+Pappophoreae; Anomo, Anomochloeae; Strepto, Streptochaeteae. Black arrows indicate the ancestral nodes of the BEP and PACCMAD clades
+according to GPWG (2001) and Sanchez-Ken et al. (2007).
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>11 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

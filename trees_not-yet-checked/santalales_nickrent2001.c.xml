@@ -1,0 +1,20 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>santalales_nickrent2001</phyloname>
+        <rootname>santalales</rootname>
+        <source collapsed="Y" pruned="N" plucked="Y" analysis="MP"
+	    consensus="STRICT">
+          <pub>
+            <citation> 
+			 Nickrent, D. L. and V. Malecot. 2001. A MOLECULAR PHYLOGENY OF SANTALALES. <http://www.plantbiology.siu.edu/faculty/nickrent/NickrentPDFs/Nickrent%26Malecot2001.pdf> 
+            </citation>
+            <figure>1</figure>
+          </pub>
+        </source>
+        <notes>   Strict consensus of two trees (L = 3477) resulting from a MP heuristic search of a combined matrix of nuSSU rDNA and rbcL sequences for 58 Santalales and six outgroup taxa. Consistency index (minus uninformative sites) = 0.3612. Numbers above branches represent BS support (100 replicates). Branches without values had BS support less than 50%. 
+
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>5 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

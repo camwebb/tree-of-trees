@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+    <phyloname>poales_apweb2009</phyloname>
+    <rootname>poales</rootname>
+    <source>
+      <apweb>
+        <version>9</version>
+        <downdate>2009-10-22</downdate>
+      </apweb>
+    </source>
+    <notes>
+      APG3 collapses Sparganiaceae within the Typhaceae and doesn't recognize Hydatellaceae;
+      topology was also changed to reflect tree on APweb (mostly, a resolved polytomy)
+    </notes>
+    <codedby>Steve Hovick</codedby>
+    <codeddate>2009-10-28</codeddate>
+  </pmmd> 

@@ -1,0 +1,27 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>cucurbitaceae_kocyan2007</phyloname>
+        <rootname>cucurbitaceae</rootname>
+        <source collapsed="N" pruned="N" plucked="Y" analysis="ML"
+	    consensus="no">
+          <pub>
+            <citation> 
+Kocyan, A. et al. 2007. A multi-locus chloroplast phylogeny for the Cucurbitaceae
+and its implications for character evolution and classification. Molecular phylogenetics and evolution 44: 553-577. 
+            </citation>
+            <figure>2</figure>
+          </pub>
+        </source>
+        <notes> One of the highest-scoring likelihood trees under the GTR + G model for Cucurbitaceae obtained from combined chloroplast loci (matK, rbcL, the
+trnL region, and rpl20-rps12), with parsimony bootstrap proportions shown above branches. Genera marked by an asterisk (*) were placed in Benincaseae
+by Jeffrey (2005), but are placed differently here (Bambekea, Cogniauxia, Cucumeropsis, Eureiandra, Nothoalsomitra); genera marked by a cross (+)
+(Ampelosicyos and Tricyclandra) were placed in Trichosantheae, but also are placed differently here. The bar at the base of Cucurbitaceae indicates the
+gain of a 35-nt-long inversion in the tRNALeu-tRNAPhe intergenic spacer (compare Fig. 2); the X refers to two reversals of the inversion. Of the monotypic
+genera obtained after this paper went to press, Cyclantheropsis parviflora is sister to Chalaema and Sicydium in the Zanonieae, and Pseudocyclanthera
+australis is sister to Rytidostylis in the Sicyeae. The tribal classification follows Jeffrey (2005), and the black brackets refer to clades, the grey brackets to
+grades.
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>9 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

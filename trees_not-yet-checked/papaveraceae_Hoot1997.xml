@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>Papaveraceae_Hoot1997</phyloname>
+        <rootname>papaveraceae</rootname>
+        <source collapsed="N" pruned="N" plucked="N" analysis="MP"
+	    consensus="N">
+          <pub>
+            <citation>
+	         Hoot, S.B., Kadereit, J.W., Blatiner, F.R., Jork, K.B., Schwarzbach, A.E., P.R. Crane 1997 Data Congruence and Phylogeny of the Papaveraceae s.l. Based 
+on Four Data Sets: atpB and rbcL Sequences, trnK Restriction Sites, 
+and Morphological Characters Systematic Botany, 22(3): pp. 575-590 </citation>
+            <figure>2</figure>
+          </pub>
+        </source>
+        <notes>Phylogenetic analysis of Papaveraceae s.l and selected outgroup taxa based on combined atpB and rbcL 
+sequence data. Illicium was used to root the tree. Numbers above lines indicate the number of nucleotide changes 
+supporting each branch. Numbers below the branches are the percentage of times that the branch was recovered in 1,000 
+bootstrap replications. Genera in Papaveraceae s. str. are indicated in bold. Acronyms after brackets are families and 
+subfamilies designated by Liden (1993a & b) and Kadereit et al. (1994): Pter. = Pteridophyllaceae,  Fuma. = Fumariaceae, 
+Esch. =Eschscholzioideae, Papa. =Papaveroideae,  Plat. =Platystemonoideae, Chel. = Chelidonioideae+Glaucium/ 
+Dicranostigma.</notes>
+        <codedby>Rico Ardy</codedby>
+        <codeddate>4 October 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>
+
+

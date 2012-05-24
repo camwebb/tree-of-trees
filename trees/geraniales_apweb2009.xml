@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+    <phyloname>geraniales_apweb2009</phyloname>
+    <rootname>geraniales</rootname>
+    <source>
+      <apweb>
+        <version>9</version>
+        <downdate>2009-10-22</downdate>
+      </apweb>
+    </source>
+    <notes>
+      APG3 includes the Francoaceae within Melianthaceae and Ledocarpaceae within the Vivianiaceae;
+      resolution below family level pruned
+    </notes>
+    <codedby>Steve Hovick</codedby>
+    <codeddate>2009-10-29</codeddate>
+  </pmmd> 

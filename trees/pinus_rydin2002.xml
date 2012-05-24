@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>pinus_rydin2008</phyloname>
+  <rootname>pinus</rootname>
+  <source collapsed="N" pruned="Y" plucked="Y" analysis="MP" consensus="STRICT">
+    <pub>
+      <citation>Rydin C. 2002. Seed plant relationships and the
+      systematic potion of gnetales based on nuclear and chloroplast
+      DNA: Conflicting data, rooting problems, and the monophyly of
+      conifers.  International Journal of Plant
+      Science. 163:197-214</citation>
+      <figure>1</figure>
+    </pub>
+  </source>
+  <notes>Caption: "Combined 4-gene analysis of rbcL, atpB, 18S, and
+  26S; strict consensus of the shortest trees.  All character changes
+  are included. Of 5923 characters, 2205 were phylogenetically
+  informative. Jackknife values are above branches, branch support
+  below." Notes: Newick file was adapted from TreeBASE file. Pinus was
+  plucked from a larger tree, and hybrid species were pruned.</notes>
+  <codedby>Karla Sartor</codedby>
+  <codeddate>2008-03-12</codeddate>  
+  <newick></newick>
+</pmmd>

@@ -1,0 +1,22 @@
+﻿  <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>hillebrandia_clement2004</phyloname>
+        <rootname>hillebrandia</rootname>
+        <source collapsed="Y" pruned="N" plucked="N" analysis="MP"
+	    consensus="STRICT">
+          <pub>
+            <citation>
+	       Clement, W. L. et al. 2004. PHYLOGENETIC POSITION AND BIOGEOGRAPHY OF HILLEBRANDIA SANDWICENSIS (BEGONIACEAE): A RARE HAWAIIAN RELICT. American Journal of Botany 91(6): 905-917. 
+            </citation>
+            <figure>1</figure>
+          </pub>
+        </source>
+        <notes>Maximum parsimony tree for Cucurbitales based on analysis of combined data from chloroplast rbcL and nuclear 18S rDNA sequences. Strict
+consensus of six trees of 990 steps; consistency index (CI) 5 0.4972 (excluding uninformative characters), retention index (RI) 5 0.5028, rescaled consistency
+index (RC) 5 0.4605. Family affiliations are shown to the right of taxon names. Percentages above the branches are bootstrap values; numbers preceded by
+below the branches are decay values. An asterisk indicates a taxon for which only rbcL data was included in the analysis.</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>26 Sep 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>
+

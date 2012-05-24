@@ -1,0 +1,106 @@
+default namespace = "http://svn.phylodiversity.net/tot/pmmd/"
+
+## This is the schema for pmmd XML files, in Relax NG compact form
+## (see http://relaxng.org/compact-tutorial-20030326.html)
+grammar {
+
+start =
+
+  ## PhyloMatic Meta Data
+  element pmmd {
+
+    ## Version: 0.4
+    attribute version { text },
+
+    ## the phyloname, == the filename MANDATORY
+    element phyloname { text },
+
+    ## the nodename of the root node MANDATORY
+    element rootname { text },
+
+    ## the Source MANDATORY
+    
+    element source {
+
+      ## collapsed ... i.e. less resolution, OPTIONAL
+      attribute collapsed { "Y" | "N" }?,
+
+      ## with some terminals removed, OPTIONAL
+      attribute pruned { "Y" | "N" }?,
+
+      ## or a sub-tree of the cited tree, OPTIONAL
+      attribute plucked { "Y" | "N" }?,
+
+      ## Type of tree analysis, OPTIONAL
+      attribute analysis { "MP" | "ML" | "BAYES" }?,
+
+      ## Consensus tree?, OPTIONAL
+      attribute consensus { "N" | "STRICT" }?,
+
+      ## a publication, either text or bibtex
+    ( element pub {
+
+      ( element citation { text } | element bibtex { text } ),
+
+        ## with an optional figure number 
+        element figure { text }?
+      } 
+      | 
+
+      ## OR this is a modification of another phylo in phylomatic 
+      element basephylo { text } 
+      |
+
+      ## OR this is an online phylomatic output file 
+      element netphylomatic { 
+	element runtime { text }?,
+	element diagnostics { text }?,
+	element missing { text }*
+      } 
+      |
+
+      ## OR this is an original or modified TreeBase phylo
+      element treebase {
+
+        ## the study accession number of the TreeBase tree e.g. S416 MAND
+        element saccn { text },
+
+        ## the tree code - visible only in the link. e.g. Tree1315 MAND
+	element treen { text }
+      } |
+
+      ## OR this is a APwebTree
+      element apweb {
+
+        element version { text } &
+
+	element downdate { xsd:date } &
+
+	element url { xsd:anyURI }?
+
+      } |
+
+       element other { text }
+
+        |
+
+       element megatree { text }
+
+        )
+
+    },
+
+    ## OPTIONAL notes
+    element notes { text }?,
+
+    ## OPTIONAL coded by who?
+    element codedby { text }?,
+
+    ## OPTIONAL when?
+    element codeddate { xsd:date }?,
+
+    ## OPTIONAL the newick tree itself, otherwise there must be a file called
+    ## phyloname.new
+    element newick { text }?
+  }
+}

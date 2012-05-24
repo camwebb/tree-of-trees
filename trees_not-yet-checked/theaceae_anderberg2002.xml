@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>theaceae_anderberg2002</phyloname>
+        <rootname>theaceae</rootname>
+        <source collapsed="N" pruned="Y" plucked="Y" analysis="MP"
+	    consensus="strict">
+          <pub>
+            <citation> 
+			Anderberg, A. A., Rydin, C., and M. Kallersjo. 2002. PHYLOGENETIC RELATIONSHIPS IN THE ORDER ERICALES S.L.: ANALYSES OF MOLECULAR DATA FROM FIVE GENES FROM THE PLASTID AND MITOCHONDRIAL GENOMES.
+            American Journal of Botany 89(4): 677-687. </citation>
+            <figure>1</figure>
+          </pub>
+        </source>
+        <notes> Parsimony jackknife tree based on analysis of a combination of sequences from the five genes atpB, ndhF, rbcL, atp1, and matR. Jackknife support
+values are given for each node. The strict consensus tree from the parsimony analysis using NONA has exactly the same topology (28 trees, 7887 steps,
+consistency index 5 0.43, retention index 5 0.53). Roman numerals correspond to numbering of clades in the text and in Figs. 2 and 3.</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>28 Sep 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

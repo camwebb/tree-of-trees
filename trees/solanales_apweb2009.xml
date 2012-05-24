@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+    <phyloname>solanales_apweb2009</phyloname>
+    <rootname>solanales</rootname>
+    <source>
+      <apweb>
+        <version>9</version>
+        <downdate>2009-10-22</downdate>
+      </apweb>
+    </source>
+    <notes>
+      Families agree with 2005 version; topology changed to reflect that on Stevens' APweb
+    </notes>
+    <codedby>Steve Hovick</codedby>
+    <codeddate>2009-11-03</codeddate>
+  </pmmd> 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>lamiaceae_walker2004</phyloname>
+  <rootname>lamiaceae</rootname>
+  <source collapsed="N" pruned="N" plucked="Y" analysis="MP" consensus="STRICT">
+    <pub>
+      <citation>
+	Walker, J B., Sytsma, K. J., Treutlein, J., and Wink,
+	M. 2002. Salvia (Lamiaceae) is not monophyletic: implications
+	for the systematics, radiation, and ecological specializations
+	of Salvia and tribe Mentheae.  American Journal of Botany
+	91(7): 1115-1125.
+      </citation>
+      <figure>6</figure>
+    </pub>
+  </source>
+  <notes>Strict consensus of most parsimonious trees of length 705
+  steps based on rbcL sequences of 127 species of Lamiaceae</notes>
+  <codedby>Subekti Sulistyawati</codedby>
+  <codeddate>2009-02-26</codeddate>
+</pmmd>

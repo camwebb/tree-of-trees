@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>moraceae_clement2008</phyloname>
+  <rootname>moraceae</rootname>
+  <source plucked="Y" analysis="BAYES" consensus="STRICT">
+    <pub>
+      <citation>Clement WL and Weiblen GD. In prep. Morphological
+      evolution in the mulberry family
+      (Moraceae). Syst. Bot.</citation>
+    </pub>
+  </source>
+  <notes>
+    Bayesian consensus of morphology, ndhF and 26S sequence data.
+    Supplied directly by George Weiblen.
+  </notes>
+  <codedby>Cam Webb</codedby>
+  <codeddate>2008-02-20</codeddate>  
+</pmmd>

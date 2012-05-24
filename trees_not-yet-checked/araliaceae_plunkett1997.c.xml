@@ -1,0 +1,22 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>araliaceae_plunkett1997</phyloname>
+        <rootname>araliaceae</rootname>
+        <source collapsed="Y" pruned="N" plucked="Y" analysis="MP"
+	    consensus="STRICT">
+          <pub>
+            <citation> Plunkett, G. M., Soltis, D. E., and P. S. Soltis. 1997. CLARIFICATION OF THE RELATIONSHIP BETWEEN
+APIACEAE AND ARALIACEAE BASED ON MATK AND RBCL SEQUENCE DATA. American Journal of Botany 84(4): 565-580. 
+          </citation>
+            <figure>3</figure>
+          </pub>
+        </source>
+        <notes>  Strict consensus of the 1 512 most parsimonious trees based on the combined data set of nucleotide substitutions from rbcL and matK
+sequences from 48 taxa. Decay values (first) and bootstrap percentages (second) are mapped along each branch. Major groups discussed in the text
+are bracketed and labeled (subfamily Hydrocotyloideae is abbreviated Hydro.). The grey branch (leading to Aralia and Panax) represents the
+only additional clade to be resolved when matK indels were included in the data set as binary characters. 
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>6 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

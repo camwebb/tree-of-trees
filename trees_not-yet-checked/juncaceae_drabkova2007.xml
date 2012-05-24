@@ -1,0 +1,23 @@
+ï»¿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>juncaceae_drabkova2007</phyloname>
+        <rootname>juncaceae</rootname>
+        <source collapsed="Y" pruned="N" plucked="N" analysis="MP"
+	    consensus="STRICT">
+          <pub>
+            <citation> Drabkova, L. and C. Vlcek. 2007. The phylogenetic position of Oxychloë (Juncaceae): evidence from
+morphology, nuclear and plastid DNA regions. Taxon 56(1): 95-102. 
+         </citation>
+            <figure>2</figure>
+          </pub>
+        </source>
+        <notes> Strict consensus tree based on rbcL, trnL intron and
+trnL-trnF intergenic spacer, matK and ITS1 & 2 sequence
+data showing the position of four Oxychloë species. Numbers
+above branches indicate jackknife values. Length
+3084, CI = 0.79, RI = 0.81.
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>11 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

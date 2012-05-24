@@ -1,0 +1,18 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>sapindaceae_harrington2005</phyloname>
+        <rootname>sapindaceae</rootname>
+        <source collapsed="Y" pruned="N" plucked="Y" analysis="MP"
+	    consensus="no">
+          <pub>
+            <citation> Harrington, M. G. et al. 2005. Phylogenetic Inference in Sapindaceae Sensu Lato Using Plastid matK and rbcL DNA Sequences. Systematic Botany 30(2): 366-382. 
+         </citation>
+            <figure>4</figure>
+          </pub>
+        </source>
+        <notes>  Single most parsimonious tree of 1580 steps found from heuristic search of the combined rbcL and matK data. Support values, and other labeling as in Fig. 1; informative indels a and d-j are mapped on the tree. Anacardiaceae outgroup is a combination of rbcL sequence Buchanania latifolia and matK sequence Pleiogynium timorense.
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>10 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

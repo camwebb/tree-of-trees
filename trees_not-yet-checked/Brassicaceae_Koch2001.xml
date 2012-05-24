@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>Brassicaceae_Koch2001</phyloname>
+        <rootname>Brassicaceae</rootname>
+        <source collapsed="N" pruned="Y" plucked="Y" analysis="MP"
+	    consensus="N">
+          <pub>
+            <citation>
+	      Koch,M., Haubold,B., T. Mitchell-Olds. 2001.MOLECULAR SYSTEMATICS OF THE BRASSICACEAE:
+EVIDENCE FROM CODING PLASTIDIC MATK AND
+NUCLEAR CHS SEQUENCES. American Journal of Botany 88(2): 534–544.
+            </citation>
+            <figure>1</figure>
+          </pub>
+        </source>
+        <notes> Single most parsimonious tree (MPT) for the analysis of the matK
+gene. Bootstrap values in percent (above branches) from 1000 replicates and
+decay values (below branches) are indicated. Information about tribal assignments according to Janchen (1942) is given on the right margin</notes>
+        <codedby>Rico Ardy</codedby>
+        <codeddate>29 September 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>
+
+

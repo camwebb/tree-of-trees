@@ -1,0 +1,25 @@
+﻿  <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>artemisia_watson2002</phyloname>
+        <rootname> see table </rootname>
+        <source collapsed="N" pruned="N" plucked="N" analysis="ML"
+	    consensus="no">
+          <pub>
+            <citation> 
+			Watson, L. E., et al. 2002.  Molecular phylogeny of Subtribe Artemisiinae (Asteraceae), including Artemisia and its allied and segregate genera. BMC Evolutionary Biology 2:17
+            </citation>
+            <figure>1</figure>
+          </pub>
+        </source>
+        <notes> Maximum likelihood tree based on ITS sequence data for Subtribe Artemisiinae (Asteraceae). With the exception of Nipponanthemum,
+Leucanthemella, Cymbopappus, Pentzia and Oncosiphon, all outgroup genera used in analysis are not shown but are listed
+in Table 1 (see additional file 1). Small segregate and allied genera of Artemisia s.l. are in bold. Subgeneric assignments for Artemisia
+s.s. are indicated by colored boxes. All Artemisia species that are not placed in a colored box are members of subg. Artemisia
+and primarily occur in the Old World. Numbers followed by '%' are bootstrap values derived from 100 bootstrap replicates
+using parsimony criteria, and numbers followed by 'p' are posterior probabilities derived from Bayesian analysis using likelihood
+criteria.</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>28 Sep 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>
+

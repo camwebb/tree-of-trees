@@ -1,0 +1,20 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>ranunculaceae_ro1997</phyloname>
+        <rootname>ranunculaceae</rootname>
+        <source collapsed="Y" pruned="N" plucked="Y" analysis="MP"
+	    consensus="STRICT">
+          <pub>
+            <citation> Ro, K-E., C. S. Keener, B. A. McPheron. 1997. Molecular Phylogenetic Study of the Ranunculaceae: Utility of the Nuclear 26S Ribosomal DNA in Inferring Intrafamilial Relationships. Molecular Phylogenetics and Evoltuion 8(2): 117-127. 
+         </citation>
+            <figure>7</figure>
+          </pub>
+        </source>
+        <notes>  Ranunculaceae relationships inferred from maximum parsimony analysis. The tree is a strict consensus tree of the 20 most
+parsimonious trees. Numbers indicate bootstrap P values higher than 50% (825 replications). Statistics of each most parsimonious tree:
+length 5 510; CI 5 0.494; HI 5 0.506; RI 5 0.651; RC 5 0.322.
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>10 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

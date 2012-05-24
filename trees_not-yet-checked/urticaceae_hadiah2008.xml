@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>urticaceae_hadiah2008</phyloname>
+        <rootname>urticaceae</rootname>
+        <source collapsed="N" pruned="Y" plucked="Y" analysis="MP"
+	    consensus="strict">
+          <pub>
+            <citation> 
+			  Hadiah, J. T., Conn, B. J. and C. J. Quinn. 2008. Infra-familial phylogeny of Urticaceae, using chloroplast sequence data. 
+			  Australian Systematic Botany 21: 375-385. 
+            </citation>
+            <figure>1</figure>
+          </pub>
+        </source>
+        <notes> Strict consensus tree of four equally parsimonious trees of 471 steps (RI = 0.71, RC = 0.36) found from heuristic searching
+of the rbcL database with 100 replicates of random taxon addition. Bootstrap percentages are shown above branches; decay values
+>1 below.</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>28 Sep 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

@@ -1,0 +1,22 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>gesneriaceae_moller2009.c</phyloname>
+        <rootname>gesneriaceae</rootname>
+        <source collapsed="Y" pruned="N" plucked="Y" analysis="MP"
+	    consensus="STRICT">
+          <pub>
+            <citation> Moller, M. et al. 2009. A preliminary phylogeny of the ‘didymocarpoid Gesneriaceae’ based on three molecular data sets: 
+			Incongruence with available tribal classifications. 
+ American Journal of Botany 96(5): 989-1010. 
+         </citation>
+            <figure>1</figure>
+          </pub>
+        </source>
+        <notes>  Strict MP consensus tree of 6912 most parsimonious trees of 2636 steps based on combined trnL-F and atpB-rbcL  sequences of 131 samples (CI = 0.62, RI = 0.84, RC = 0.52). Bootstrap values and decay indices (bold and italics) are given above branches. 
+		Light gray boxes = Trichosporeae, dark gray boxes = Cyrtandreae; systematics (right side) follows Weber 2004; black bars = outgroups, hatched bars = gesnerioid, lined bars = coronantheroid, open bars = didymocarpoid, crosshatched = unassigned. Branches in bold are supported by posterior probabilities of 1.00 (black) or 0.99 (gray) in the Bayesian analysis. Asterisks indicate generic types. 
+		Arrow indicates a relationship found in the Bayesian analysis. 
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>10 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

@@ -1,0 +1,76 @@
+#!/bin/gawk -f
+
+# Produces a staggered representation of the Newick tree
+# Cam Webb <cam@phylodiversity.net>
+
+BEGIN{
+  RS = "\x04";
+  ORS = ""; 
+  depth = -1
+}
+
+{
+  tree = $0;
+}
+
+END{
+  close(ARGV[1]);
+
+  # clean file
+  gsub(/[\t\n\ ]/,"",tree);
+
+  # clear the file
+  print "" > ARGV[1];
+
+  i = 1;
+  out = "";
+  while (i <= length(tree))
+    {
+      if (substr(tree, i, 1) ~ /\(/)
+        {
+          depth++;
+          out = out "\n";
+          for (x = 0; x < depth; x++) {out = out "  "};
+          out = out "(";
+          if (substr(tree, i+1, 1) !~ /\(/)
+            {
+              out = out "\n";
+              for (x = 0; x <= depth; x++) { out = out "  " };
+            }
+          i++;
+        }
+      else if (substr(tree, i, 1) ~ /\)/)
+        {
+          out = out "\n" ;
+          for (x = 0; x < depth; x++) { out = out "  " };
+          out = out ")";
+          depth--;
+          i++;
+        }
+      else if ((substr(tree, i, 1) ~ /,/) && (substr(tree, i+1, 1) ~ /[A-Za-z]/))
+        {
+          out = out ",\n" ;
+          for (x = 0; x <= depth; x++) { out = out "  "};
+          i++;
+        }
+      else
+        {
+          out = out substr(tree, i, 1);
+          i++;
+        }
+    }
+
+  # test before overwriting
+  if (tree == gensub(/[\t\n\ ]/ ,"", "G", out))
+	{
+	  print out > ARGV[1] ;
+	}
+  else
+	{
+	  print "Staggering failed. Exiting...";
+	}
+
+}
+
+
+

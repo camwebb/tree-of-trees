@@ -1,0 +1,27 @@
+﻿  <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>campanulaceae_givnish2009</phyloname>
+        <rootname>campanulaceae</rootname>
+        <source collapsed="N" pruned="Y" plucked="Y" analysis="MP"
+	    consensus="no">
+          <pub>
+            <citation> 
+			Givnish, T. J. et al. 2009. Origin, adaptive radiation and diversification of the
+Hawaiian lobeliads (Asterales: Campanulaceae). Proceedings of the Royal Society B 276: 407-416.   
+            </citation>
+            <figure>2</figure>
+          </pub>
+        </source>
+        <notes> Relationships among Hawaiian lobeliads and allies ( psbA-trnH, trnL-trnF, rpl16, trnT-trnL, trnV-trnK, atpB-rbcL, rbcL
+partial cds). Phylogram is one of two shortest trees arising from MP analysis of sequence and indel variation, using L. cardinalis
+and L. vivaldii as out-groups; branch lengths are proportional to the inferred amounts of genetic change. This tree is identical in
+topology to the parsimony jackknife tree and (except for the position of Isotoma) to the ML and BA trees based on nucleotide
+characters only (see text); the open arrow indicates the node that collapses in the strict consensus of the two MP trees. Tree
+lengthZ1393 steps under parsimony; consistency index CIZ0.86; CI0Z0.76; excluding autapomorphies. Jackknife support is
+shown above each node; posterior probability is shown below (the single node that collapses in the BA tree has no such
+probability shown). The Hawaiian lobeliads (green box) are monophyletic with 100% posterior probability.
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>3 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

@@ -1,0 +1,18 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>nyctaginaceae_douglas2007</phyloname>
+        <rootname>nyctaginaceae</rootname>
+        <source collapsed="Y" pruned="N" plucked="Y" analysis="ML"
+	    consensus="no">
+          <pub>
+            <citation> Douglas, N. A. and P. S. Manos. 2007. Molecular phylogeny of Nyctaginaceae: taxonomy, biogeography, and characters associated with a radiation of xerophytic genera in North America. American Journal of Botany 94: 856-872. 
+         </citation>
+            <figure>2</figure>
+          </pub>
+        </source>
+        <notes>  Maximum-likelihood (ML) topology from the analysis of the entire data set. Parsimony bootstrap/ML bootstrap support values above branches, Bayesian posterior probability from the "B6" analysis below branches, "-" indicates bootstrap support value <50. tribes of Nyctaginaceae according to Bittrich and Khn (1993) are in bold. "-" before unbold name signifies a subtribe of tribe Nyctagineae 
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>10 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

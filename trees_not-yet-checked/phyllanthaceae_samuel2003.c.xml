@@ -1,0 +1,15 @@
+﻿  <?xml version="1.0" encoding="utf-8" ?> 
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>phyllanthaceae_samuel2003</phyloname> 
+  <rootname>phyllanthaceae</rootname> 
+ <source collapsed="Y" pruned="Y" plucked="Y" analysis="MP" consensus="no">
+<pub>
+  <citation>Samuel, R. et al. 2005. MOLECULAR PHYLOGENETICS OF PHYLLANTHACEAE: EVIDENCE FROM PLASTID MATK AND NUCLEAR PHYC SEQUENCES. American Journal of Botany 92(1): 132-141.</citation> 
+  <figure>5</figure> 
+  </pub>
+  </source>
+  <notes>One of the six most parsimonious trees of the combined analysis of matK and PHYC (length 5 3440, CI 5 0.59, RI 5 0.75). Branch lengths (DELTRAN optimization) and bootstrap percentages (.50) are indicated above and below the branches, respectively. Arrowheads indicate nodes not present in the strict consensus tree. Hyphens (-) indicate BP , 50.</notes> 
+  <codedby>Megan Bartlett</codedby> 
+  <codeddate>4 Oct 2011</codeddate> 
+  <newick>(a,(b,c)subclade)taxon;</newick> 
+  </pmmd>

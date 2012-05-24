@@ -1,0 +1,15 @@
+ï»¿ <?xml version="1.0" encoding="utf-8" ?> 
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>solanaceae_olmstead2008</phyloname> 
+  <rootname>montinia_caryophyllaceae, dinetus_truncatus, evolvulus_glomeratus, convolvulus_arvensis, ipomoea_batatas</rootname> 
+ <source collapsed="Y" pruned="N" plucked="Y" analysis="MP" consensus="STRICT">
+ <pub>
+  <citation>Olmstead, R. G. et al. 2008. A molecular phylogeny of the Solanaceae. Taxon 57(4): 1159-1181.</citation> 
+  <figure>1</figure> 
+  </pub>
+  </source>
+  <notes>Solanaceae phylogeny depicted as strict consensus tree based on combined ndhF and trnLF sequences. Numbers above branches represent bootstrap values. Suprageneric groups recognized here are labeled to the right. Arrows indicate bases of the Atropina, Salpichroina, and “x = 12” clades. Asterisk indicates this individual may be of hybrid origin (see text).</notes> 
+  <codedby>Megan Bartlett</codedby> 
+  <codeddate>6 Oct 2011</codeddate> 
+  <newick>(a,(b,c)subclade)taxon;</newick> 
+  </pmmd>

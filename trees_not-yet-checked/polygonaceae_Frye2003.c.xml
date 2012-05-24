@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+ <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>polygonaceae_Frye2003</phyloname> 
+  <rootname>polygonaceae</rootname> 
+<source collapsed="Y" pruned="N" plucked="N" analysis="MP" consensus="Strict">
+ <pub>
+  <citation>Lamb Frye, A.S., K.A. Kron 2003 r bcL Phylogeny and Character Evolution in Polygonaceae Systematic Botany, 28(2): pp. 326-332</citation> 
+  <figure>1</figure> 
+  </pub>
+  </source>
+  <notes>FIG. 1. Strict consensus of the two most parsimonious trees found in the parsimony analysis of rbcL sequence data (L = 888, C. I. = 0.45, R. I. = 0.64). Uninformative characters are excluded and all characters are equally weighted. Bootstrap values are indicated above the branches (bootstrap scores > 50% are shown).</notes> 
+  <codedby>Rico Ardy</codedby> 
+  <codeddate>4 October 2011</codeddate> 
+  <newick>(a,(b,c)subclade)taxon;</newick> 
+  </pmmd>

@@ -1,0 +1,21 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>moraceae_datwyler2004</phyloname>
+        <rootname>moraceae</rootname>
+        <source collapsed="Y" pruned="N" plucked="Y" analysis="MP"
+	    consensus="STRICT">
+          <pub>
+            <citation>  Datwyler, S. L. and G. D. Weiblen. 2004. On the origin of the fig: phylogenetic relationships of Moraceae from ndhF sequences. American Journal of Botany 91: 767-777. 
+         </citation>
+            <figure>2</figure>
+          </pub>
+        </source>
+        <notes> Strict consensus of 11 057 most parsimonious trees. 
+		Numbers above branches refer to bootstrap percentage/decay index. 
+		Classification follows Rohwer (1993) with outgroup families and ingroup tribes indicated in brackets. 
+		Taxa in boldface type indicate genera for which tribal placement is revised 
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>11 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

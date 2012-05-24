@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>rosaceae_potter2007</phyloname>
+  <rootname>rosaceae</rootname>
+  <source collapsed="Y" pruned="N" plucked="Y" analysis="MP" consensus="STRICT">
+    <pub>
+      <citation>Potter D. 2007. Phylogeny and classification of
+      Rosaceae.  Plant Systematics and Evolution. 266:5-43</citation>
+      <figure>1</figure>
+    </pub>
+  </source>
+  <notes>Caption: "Strict consensus of 226 most parsimonious trees (l
+  = 9,682, ci = 0.5225 (0.4302 excluding autapomorphies), ri = 0.7112)
+  from phylogenetic analysis of all data partitions except pgip and
+  ppo. Bootstrap (above branches) and Bayesian clade credibility
+  (below branches, in italics) support values are indicated. Arrows
+  are used to indicate groups that were supported by the Bayesian
+  analysis but were not recovered in the strict consensus tree. (In
+  the Bayesian tree, the branching order within Spiraeoideae was:
+  Lyonothamnus; Neillieae; (the branch leading to the remainder of the
+  subfamily supported with 68% clade credibility), Kerriodae; (the
+  branch leading to the remainder of the subfamily supported with 100%
+  clade credibility), Amygdaleae; the rest of the subfamily)" Notes:
+  The Rosoideae Subfamily was not included.  The Amygdaleae clade was
+  collapsed. </notes>
+  <codedby>Karla Sartor</codedby>
+  <codeddate>2008-01-09</codeddate>  
+  <newick></newick>
+</pmmd>

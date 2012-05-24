@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>meliaceae_gadek1996</phyloname>
+  <rootname>meliaceae</rootname>
+  <source collapsed="Y" pruned="Y" plucked="Y" analysis="MP" consensus="STRICT">
+    <pub>
+      <citation>
+	Gadek PA. 1996. Sapindales: Molecular Delimitation and
+	infraordinal groupings.  American Journal of
+	Botany. 83:802-811
+      </citation>
+      <figure>1</figure>
+    </pub>
+  </source>
+  <notes>
+    Caption: "One of ten shortest trees found by PAUP (Swofford,
+    1993), shown as a cladogram with branch lengths proportional to
+    the number of unambiguous substitutions. Arrows indicate branches
+    that collapse in the strict consensus. Decay values are shown
+    below each branch. The five lineages identified within Sapindales
+    are indicated by numbers in circles, in the order in which they
+    are discussed in the texts." Notes: The branches mentioned as
+    having arrows were collapsed in the newick file.  Only the
+    "sp. nov." branch was pruned.
+  </notes>
+  <codedby>Karla Sartor</codedby>
+  <codeddate>2008-01-07</codeddate>  
+</pmmd>

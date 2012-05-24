@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3"> 
+  <phyloname>rubiaceae_rova2002</phyloname> 
+  <rootname>rubiaceae</rootname> 
+  <source collapsed="N" pruned="Y" plucked="Y" analysis="MP"> 
+    <pub> 
+      <citation> 
+	Rova J. H. E., Delprete, P. G., Andersson, L., and Albert,
+	V. A., 2002. A trnL-F cpDNA sequence study of the
+	Condamineeae-Rondeletieae-Sipaneeae complex with implications
+	on the phylogeny of the Rubiaceae.  American Journal of Botany
+	89(1): 145-159
+      </citation> 
+      <figure>1-7</figure> 
+    </pub> 
+  </source> 
+  <notes>
+    Fig. 1. Tree showing the main groups from the jackknife analysis
+    of trnL- F sequence data. Numbers below branches indicate
+    jackknife support. Major clades are shown as abbreviations: R
+    denotes the Rubioideae clade; I1, I2, and I3 the three Ixoroideae
+    (I) clades; and C1 to C4 and C5a-b the different Cinchonoideae (C)
+    clades as discussed in the text.
+
+    Fig. 2. The Rubioideae clade (corresponds to clade R in
+    Fig. 1). Numbers below branches indicate jackknife support.
+
+    Fig. 3. The first Ixoroideae clade (corresponds to clade I1 in
+    Fig. 1).  Numbers below branches indicate jackknife support.
+
+    Fig. 4. The second Ixoroideae clade (corresponds to clade I2 in
+    Fig. 1).
+    
+    Fig. 5. The third Ixoroideae clade (corresponds to clade I3 in
+    Fig. 1).  Numbers below branches indicate jackknife support. I3a
+    and I3b are names of subclades within the I3 clade, as discussed
+    in the text.
+
+    Fig. 6. The fourth Cinchonoideae clade (corresponds to clade C4 in
+    Fig. 1). Numbers below branches indicate jackknife support.
+
+    Fig. 7. The Cinchonoideae clades C5a and C5b from Fig. 1. Numbers
+    below branches indicate jackknife support.
+
+	A second occurence of Rogiera removed (C Webb; 2009-11-22)
+  </notes> 
+  <codedby>Subekti Sulistyawati</codedby> 
+  <codeddate>2007-12-03</codeddate>  
+</pmmd> 

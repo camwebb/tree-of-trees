@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd version="0.2" xmlns="http://svn.phylodiversity.net/tot/pmmd/" >
+  <phyloname>polemoniaceae_apweb2008</phyloname>
+  <rootname>polemoniaceae</rootname>
+  <source>
+    <pub>
+      <citation>
+	Stevens, P. F. (2001 onwards). Angiosperm Phylogeny
+	Website. Version 9, June 2008.
+	http://www.mobot.org/MOBOT/research/APweb/
+      </citation>
+    </pub>
+  </source>
+  <codedby>Cam Webb</codedby>
+  <codeddate>2008-11-13</codeddate>
+</pmmd>

@@ -1,0 +1,28 @@
+﻿  <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>goodeniaceae_howarth2003</phyloname>
+        <rootname>goodeniaceae</rootname>
+        <source collapsed="N" pruned="N" plucked="N" analysis="MP"
+	    consensus="STRICT">
+          <pub>
+            <citation> Howarth, D. G. et al. 2003. PHYLOGENETICS OF THE GENUS SCAEVOLA
+(GOODENIACEAE): IMPLICATION FOR DISPERSAL PATTERNS ACROSS THE PACIFIC BASIN AND COLONIZATION OF THE HAWAIIAN ISLANDS.
+American Journal of Botany 90(6): 915-923. 
+            </citation>
+            <figure>1</figure>
+          </pub>
+        </source>
+        <notes>Strict consensus of 864 most parsimonious trees. Bootstrap values
+are given above the branches. Asterisks indicate a lack of support for the
+clade under other weighting schemes. Section and subsection delineations
+based on Carolin et al. (1992) are indicated on the right (Enan. 5 Scaevola
+sect. Enantiophyllum; Xero. 5 Scaevola sect. Xerocarpa; Scae. 5 Scaevola
+sect. Scaevola;). Long dashes 5 single species dispersals, short dashes 5
+Southern clade, medium dashes 5 Northern clade. SP 5 South Pacific, HI 5
+Hawaiian Islands, SA 5 South America, A 5 Africa. Taxa in boldface type
+occur outside Australia.</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>26 Sep 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>
+

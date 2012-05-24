@@ -1,0 +1,20 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>plantaginaceae_albach2005</phyloname>
+        <rootname>plantaginaceae</rootname>
+        <source collapsed="Y" pruned="N" plucked="Y" analysis="MP"
+	    consensus="no">
+          <pub>
+            <citation> Albach, D. C., Meudt, H. M. and B. Oxelman. 2005. Piecing together the "new" Plantaginaceae. American Journal of Botany 92: 297-315. 
+         </citation>
+            <figure>1</figure>
+          </pub>
+        </source>
+        <notes>  The most parsimonious tree of the analysis of the ITS region. 
+		Asterisks indicate posterior probabilities of 1.00. Only PB > 50 and PP > 95 are shown. 
+		Abbreviations: PB = percentage bootstrap support, PP = posterior probability, Digitalis o. = Digitalis obscura, Digitalis p. = Digitalis purpurea, Globularia r. = Globularia repens, Globularia s. = Globularia salicina
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>10 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

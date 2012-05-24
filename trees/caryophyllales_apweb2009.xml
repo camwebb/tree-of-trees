@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+    <phyloname>caryophyllales_apweb2009</phyloname>
+    <rootname>caryophyllales</rootname>
+    <source>
+      <apweb>
+        <version>9</version>
+        <downdate>2009-10-22</downdate>
+      </apweb>
+    </source>
+    <notes>
+      APG3 adds 6 families to the order: placement of 5 of them (Didiereaceae, Anacampserotaceae, 
+      Talinaceae, Lophiocarpaceae and Limeaceae) is based on topology in Stevens' APweb;
+      Gisekiaceae is unplaced on APweb, but Cuenoud et al. 2002 (AmJBot 89:132-144) suggest its placement in the Sarcobataceae polytomy;
+    </notes>
+    <codedby>Steve Hovick</codedby>
+    <codeddate>2009-10-30</codeddate>
+  </pmmd> 

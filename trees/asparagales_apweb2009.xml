@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+    <phyloname>asparagales_apweb2009</phyloname>
+    <rootname>asparagales</rootname>
+    <source>
+      <apweb>
+        <version>9</version>
+        <downdate>2009-10-22</downdate>
+      </apweb>
+    </source>
+    <notes>
+      APG3 collapses the Agapanthaceae and Alliaceae within Amaryllidaceae; 
+      the Asphodelaceae and Hemerocallidaceae within Xanthorrhoeaceae;
+      and the Agavaceae, Aphyllanthaceae, Hesperocallidaceae, Hyacinthaceae, Laxmanniaceae, Ruscaceae, and Themidaceae within Asparagaceae
+    </notes>
+    <codedby>Steve Hovick</codedby>
+    <codeddate>2009-10-27</codeddate>
+  </pmmd> 

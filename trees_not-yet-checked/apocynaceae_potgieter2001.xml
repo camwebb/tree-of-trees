@@ -1,0 +1,24 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>apocynaceae_potgieter2001</phyloname>
+        <rootname>apocynaceae</rootname>
+        <source collapsed="Y" pruned="N" plucked="Y" analysis="MP"
+	    consensus="STRICT">
+          <pub>
+            <citation> 
+Potgieter, K. and V. A. Albert. 2001. Phylogenetic Relationships within Apocynaceae s.l. 
+Based on trnL Intron and trnL-F SpacerSequences and Propagule Characters. Annals of the Missouri Botanical Garden 88(4): 523-549. 
+            </citation>
+            <figure>1</figure>
+          </pub>
+        </source>
+        <notes> Strict consensus of 1000 equally parsimonious trees (1218/1294 steps) for the molecular (trnL intron and trnL-F spacer nucleotide) matrix and the combined molecular and morphological (six propagule char- acters) data sets. The separate matrices are available from the first author upon request. 
+		Jackknife support values are indicated as the first value below the nodes for the tree generated from the molecular data alone the second value represents jac kknife support for the combined data matrix; black arrows denote support for a given node when space was limited. 
+		Dashed nodes are used to indicate additional structure seen in the combined data set, e.g., [(Neisosperma, Ochrosia), (Catharanthus-Tonduzia), (Melodinus-Pleiocarpa), (Plumeria), (Skytanthus-Cerbera), and the Gomphocarpus
+		clade], whereas dashed vertical lines indicate additional structure in the molecular data set [(Peltastes-Prestonia), (Marsdenia, Telosma)]. The only structural dissimilarity occurred in a relatively unsupported portion of the tree in the molecular clade consisting of [RauvolfRa (Laxoplumeria, Tonduzia)]. 
+		Consistency (CI) and retention (RI) indices for the molecular data set and the combined data set were 0.53/0.52 and 0.89/0.89, respectively. The subfamilial and tribal classifications sensu Leeuwenberg (1994) and Swarupanandan et al. (1996) are compared with this phylogenetic tree. 
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>6 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3"> 
+  <phyloname>secamonoideae_civeyrel2001</phyloname> 
+  <rootname>secamonoideae</rootname> 
+  <source collapsed="N" pruned="N" plucked="Y" analysis="MP" 
+	  consensus="STRICT"> 
+    <pub> 
+      <citation> 
+	Civeyrel L., Rowe N. 2001. Phylogenetic relationship of
+	Secamonoideae based on the plastid gene matK, morphology and
+	biomechanics.  Annals of the Missouri Botanical Garden
+	88(4): 583-602
+    </citation> 
+    <figure>2</figure>
+    </pub> 
+  </source> 
+  <notes>
+    Strict consensus tree of the 25 most parsimonious trees obtained with 
+    the successive weighting analysis.
+  </notes> 
+  <codedby>Alex Sumadijaya</codedby>
+  <codeddate>2008-03-06</codeddate>
+</pmmd>

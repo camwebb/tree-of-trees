@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>zygophyllaceae_sheahanchase2000</phyloname>
+        <rootname>zygophyllaceae</rootname>
+        <source collapsed="N" pruned="Y" plucked="N" analysis="MP"
+	    consensus="no">
+          <pub>
+            <citation> 
+			 Sheahan, M. C. and M. W. Chase. 2000. Phylogenetic Relationships within Zygophyllaceae Based on DNA Sequences of Three PlastidRegions, with Special Emphasis on Zygophylloideae. 
+			 Systematic Botany 25(2): 371-384. 
+            </citation>
+            <figure>1</figure>
+          </pub>
+        </source>
+        <notes> One of six equally parsimonious trees resulting from the rbcL analysis. This tree was identical in topology to the single SW tree: Fitch length 607 steps, CI = 0.58, RI = 0.82 (SW length 292.730, CI = 0.80, RI = 0.92). Fitch branch lengths are shown above the branches (ACCTRAN optimization). Numbers below the branches indicate the percentage bootstrap support in the SW and Fitch trees, respectively; branches with less than 50% are marked with a dash. 
+		Branches not present in all of the six Fitch trees are marked with an arrow.</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>28 Sep 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

@@ -1,0 +1,30 @@
+ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>euphorbiaceae_tokuoka2007.c</phyloname>
+        <rootname>euphorbiaceae</rootname>
+        <source collapsed="Y" pruned="N" plucked="Y" analysis="MP"
+	    consensus="no">
+          <pub>
+            <citation>  Tokuoka, T. 2007. Molecular phylogenetic analysis of Euphorbiaceae sensu stricto
+based on plastid and nuclear DNA sequences and ovule and seed character evolution. Journal of Plant Research 120: 511-522. 
+			</citation>
+            <figure>1</figure>
+          </pub>
+        </source>
+        <notes> Single most
+parsimonious tree resulting
+from the combined analyses of
+rbcL, atpB, matK and 18S
+rDNA sequence data (tree
+length = 5638, consistency
+index = 0.472, retention
+index = 0.647). The numbers
+above the branches represent
+bootstrap percentages (?0%).
+Abbreviation for each clade
+followed Wurdack et al. (2005)
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>12 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

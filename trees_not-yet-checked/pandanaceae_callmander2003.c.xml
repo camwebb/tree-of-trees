@@ -1,0 +1,15 @@
+﻿  <?xml version="1.0" encoding="utf-8" ?> 
+ <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>pandanaceae_callmander2003</phyloname> 
+  <rootname>pandanaceae</rootname> 
+<source collapsed="Y" pruned="N" plucked="Y" analysis="MP" consensus="no">
+<pub>
+  <citation>Callmander, M. W. et al. 2003. Recognition of Martellidendron, a new genus of Pandanaceae, and its biogeographic implications. Taxon 52: 747-762.</citation> 
+  <figure>2</figure> 
+  </pub>
+  </source>
+  <notes>Phylogram of one of the eight most parsimonious trees from combined data of cpDNA analyses based on 22 exemplar species of Pandanaceae. Above branches: jacknife values if greater than 50%; branches that collapse in the strict consensus tree are indicated by *. Below branches: decay index. Clade A magnified five times in the right box to better show the jackknife and decay indices.</notes> 
+  <codedby>Megan Bartlett</codedby> 
+  <codeddate>6 Oct 2011</codeddate> 
+  <newick>(a,(b,c)subclade)taxon;</newick> 
+  </pmmd>

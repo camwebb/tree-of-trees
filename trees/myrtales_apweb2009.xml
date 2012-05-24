@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+    <phyloname>myrtales_apweb2009</phyloname>
+    <rootname>myrtales</rootname>
+    <source>
+      <apweb>
+        <version>9</version>
+        <downdate>2009-10-22</downdate>
+      </apweb>
+    </source>
+    <notes>
+      APG3 includes Memecylaceae within Melastomataceae; Heteropyxidaceae and Psiloxylaceae within the Myrtaceae;
+      and Oliniaceae and Rhynchocalycaceae within the Penaeaceae;
+      topology at tree base also adjusted to match with Stevens' APweb;
+      resolution below family level pruned
+    </notes>
+    <codedby>Steve Hovick</codedby>
+    <codeddate>2009-10-29</codeddate>
+  </pmmd> 

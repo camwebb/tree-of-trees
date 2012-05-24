@@ -1,0 +1,19 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>salicaceae_chase2002</phyloname>
+        <rootname>salicaceae</rootname>
+        <source collapsed="N" pruned="N" plucked="Y" analysis="MP"
+	    consensus="STRICT">
+          <pub>
+            <citation>  Chase, M. W. et al. 2002. When in Doubt, Put It in Flacourtiaceae: A Molecular Phylogenetic Analysis Based on Plastid
+rbcL DNA Sequences. Kew Bulletin 57(1): 141-181. 
+         </citation>
+            <figure>1b</figure>
+          </pub>
+        </source>
+        <notes>  no figure caption 
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>10 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

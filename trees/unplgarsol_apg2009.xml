@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd version="0.2" xmlns="http://svn.phylodiversity.net/tot/pmmd/" >
+  <phyloname>unplgarsol_apg2009</phyloname>
+  <rootname>unplgarsol</rootname>
+  <source>
+    <pub>
+      <citation>
+		Angiosperm Phylogeny Group.  An update of the Angiosperm
+		Phylogeny Group classification for the orders and families of
+		flowering plants: APG III.  2009.  Botanical Journal of the
+		Linnean Society 161: 105-121.
+      </citation>
+    </pub>
+  </source>
+	<notes>
+	  Unplaced families near garryales
+	  (icacinaceae,metteniusaceae,oncothecaceae), added for completeness
+	</notes>
+  <codedby>Cam Webb</codedby>
+  <codeddate>2009-11-07</codeddate>
+</pmmd>

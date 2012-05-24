@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>violaceae_tokuoka2008</phyloname>
+        <rootname>violaceae</rootname>
+        <source collapsed="N" pruned="Y" plucked="Y" analysis="MP"
+	    consensus="no">
+          <pub>
+            <citation> 
+			  Tokuoka, T. 2008. Molecular phylogenetic analysis of Violaceae (Malpighiales) based on plastid and nuclear DNA sequences. 
+			  Journal of Plant Research 121: 253-260. 
+            </citation>
+            <figure>1</figure>
+          </pub>
+        </source>
+        <notes> Single most parsimonious tree resulting from the combined analyses of
+rbcL, atpB, matK and 18S rDNA sequence data (tree length = 3,022, CI = 0.615, RI = 0.709). The numbers
+above the branches represent bootstrap percentages (C50%). The numbers below the
+branches represent posterior probabilities in the Bayesian analysis (C0.50 PP). Dashed
+lines indicate the nodes with less than 50% bootstrap support. The arrow indicates the node
+collapsed in the 50% majority consensus tree from the Bayesian analysis</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>28 Sep 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

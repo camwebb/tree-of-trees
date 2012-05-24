@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>Oleaceae_Wallander2000</phyloname>
+        <rootname>oleaceae</rootname>
+        <source collapsed="Y" pruned="Y" plucked="N" analysis="MP"
+	    consensus="strict">
+          <pub>
+            <citation>
+	      Wallander, E.,V.A. Albert. 2000.
+PHYLOGENY AND CLASSIFICATION OF OLEACEAE BASED ON RPS16 AND TRNL-F SEQUENCE DATA American Journal of Botany 87(12): 1827-1841
+            </citation>
+            <figure>1</figure>
+          </pub>
+        </source>
+        <notes> Strict consensus tree of the most parsimonious trees from the analyses of the combined data set with indels coded as separate characters. Jackknife
+support values over 50% are shown above the branches. Tribal delimitations follow this study.</notes>
+        <codedby>Rico Ardy</codedby>
+        <codeddate>29 September 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>
+
+

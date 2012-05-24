@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+    <phyloname>lamiales_apweb2009</phyloname>
+    <rootname>lamiales</rootname>
+    <source>
+      <apweb>
+        <version>9</version>
+        <downdate>2009-10-22</downdate>
+      </apweb>
+    </source>
+    <notes>
+      APG3 adds Thomandersiaceae and Linderniaceae as new families;
+      2 families deleted from the 2005 version based on APG3: Myoporaceae (now in Scrophulariaceae) and Trapellaceae (now in Plantaginaceae);
+      Stevens' APweb includes more detail in his text than in the tree he shows, including the following: 
+      Carlemanniaceae sister to Oleaceae; (Calceolariaceae, Gesneriaceae) as a resolved clade;
+      relationships from Plantaginaceae to (Thomandersiaceae, Verbenaceae) mostly resolved;
+      resolution below family level pruned
+    </notes>
+    <codedby>Steve Hovick</codedby>
+    <codeddate>2009-11-03</codeddate>
+  </pmmd> 

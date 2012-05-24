@@ -1,0 +1,15 @@
+﻿  <?xml version="1.0" encoding="utf-8" ?> 
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>orchidaceae_bateman2003</phyloname> 
+  <rootname>orchidaceae</rootname> 
+<source collapsed="Y" pruned="Y" plucked="Y" analysis="MP" consensus="no">
+<pub>
+  <citation>Bateman, R. M. et al. 2003. Molecular phylogenetics and evolution of Orchidinae and selected Habenariinae (Orchidaceae). Botanical Journal of the Linnean Society 142: 1-40.</citation> 
+  <figure>2</figure> 
+  </pub>
+  </source>
+  <notes>Selected most-parsimonious ITS tree, presented as a phylogram under Acctran optimization, for 186 species of Orchidinae and selected Habenariinae plus a Diseae outgroup.</notes> 
+  <codedby>Megan Bartlett</codedby> 
+  <codeddate>12 Oct 2011</codeddate> 
+  <newick>(a,(b,c)subclade)taxon;</newick> 
+  </pmmd>

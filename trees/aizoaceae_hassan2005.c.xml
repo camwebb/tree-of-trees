@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>aizoaceae_hassan2005</phyloname> 
+  <rootname>aizoaceae</rootname> 
+  <source collapsed="Y" pruned="N" plucked="N" analysis="MP" consensus="STRICT">
+	<pub>
+	  <citation>Hassan, N. S., Thiede, J. and S. Liede-Schumann. 2005. Phylogenetic analysis of Sesuvioideae (Aizoaceae) inferred from nrDNA internal transcribed spacer (ITS) sequences and morphological data. Plant Systematics and Evolution 255: 121-143.</citation> 
+	  <figure>1</figure> 
+	</pub>
+  </source>
+  <notes>Strict consensus of the 12 most parsimonious trees resulting from analysis of the ITS dataset (168 parsimony informative characters). L = 546 steps, CI = 0.66 (excluding uninformative characters), RI = 0.73 and RC = 0.48</notes> 
+  <codedby>Megan Bartlett</codedby> 
+  <codeddate>2011-09-26</codeddate> 
+</pmmd>

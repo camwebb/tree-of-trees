@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>Capparaceae_Hall2002.c</phyloname>
+        <rootname>Capparaceae</rootname>
+        <source collapsed="Y" pruned="Y" plucked="N" analysis="MP"
+	    consensus="N">
+          <pub>
+            <citation>
+		Hall, J.C., Sytsma, K.J., H.H. Iltis 2002 PHYLOGENY OF CAPPARACEAE AND BRASSICACEAE
+BASED ON CHLOROPLAST SEQUENCE DATA American Journal of Botany 89(11): 1826–1842.
+            </citation>
+            <figure>2</figure>
+          </pub>
+        </source>
+        <notes>One of 4499 most-parsimonious trees (randomly chosen) from analyses of the 55-taxa ndhF data set. Tropaeolum was designated as the outgroup.
+The trees are 1255 steps long. Branch lengths are provided above each branch, and bootstrap percentages .50% are given below. Branches with bootstrap
+support greater than 90% are in boldface type. Branches that collapse in the consensus tree are indicated with a dashed line. The four indels are indicated by
+boxes; closed boxes indicate the three indels with a single origin and open boxes indicate the one indel requiring parallel or reversal events (Appendix 2,
+http://ajbsupp.botany.org/v89/).</notes>
+        <codedby>Rico Ardy</codedby>
+        <codeddate>4 October 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>
+

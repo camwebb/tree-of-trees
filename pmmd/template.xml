@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pmmd PUBLIC "-//Webb//RNC pmmd XML V0.3//EN" "http://svn.phylodiversity.net/tot/pmmd/pmmd.rnc" >
+<pmmd version="0.3" xmlns="http://svn.phylodiversity.net/tot/pmmd/">
+  <phyloname>taxon_other2000</phyloname>
+  <rootname>taxon</rootname>
+  <source collapsed="N" pruned="N" plucked="N" analysis="MP">
+    <pub>
+      <citation>Other AN. 2000. Phylogeny of taxon. J Foo 12:234-567</citation>
+      <figure>3b</figure>
+    </pub>
+  </source>
+  <notes>Other information</notes>
+  <codedby>John Doe</codedby>
+  <codeddate>2007-05-12</codeddate>  
+  <newick>(a,(b,c)subclade)taxon;</newick>
+</pmmd>

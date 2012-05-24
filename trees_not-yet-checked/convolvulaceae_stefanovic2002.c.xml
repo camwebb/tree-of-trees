@@ -1,0 +1,15 @@
+﻿  <?xml version="1.0" encoding="utf-8" ?> 
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>convolvulaceae_stefanovic2002</phyloname> 
+  <rootname>convolvulaceae</rootname> 
+<source collapsed="Y" pruned="Y" plucked="Y" analysis="MP" consensus="STRICT">
+ <pub>
+  <citation>Stefanovic, S., L. Krueger, and R. G. Olmstead. 2002. MONOPHYLY OF THE CONVOLVULACEAE AND CIRCUMSCRIPTION OF THEIR MAJOR LINEAGES BASED ON DNA SEQUENCES OF MULTIPLE CHLOROPLAST LOCI. American Journal of Botany 89(9): 1510-1522.</citation> 
+  <figure>1</figure> 
+  </pub>
+  </source>
+  <notes>The strict consensus of 54 equally parsimonious trees (L 5 3366; CI 5 0.62; RI 5 0.79) from the total evidence analysis (i.e., rbcL, atpB, psbEJ, and trnL-F sequence) comprising genera from all traditionally recognized green Convolvulaceae tribes is shown in boldface type. The placement of the Cuscuta species when this parasitic genus is included in analysis (L 5 4591; CI 5 0.61; RI 5 0.77) is shown appended to the tree in lighter type. The tree is rooted using three taxa belonging to closely related families as outgroups. Numbers above branches are bootstrap and jackknife values, respectively (when percentages are identical, only one number is shown). Numbers below branches are decay indices. Boxed numbers show bootstrap, jackknife, and decay support when Cuscuta is included for those nodes most affected by its inclusion. Classification by tribe based on Austin (1973, modified 1998b). Square brackets indicate monophyletic groups; rounded indicate paraphyletic groups. Two well-supported clades are indicated.</notes> 
+  <codedby>Megan Bartlett</codedby> 
+  <codeddate>3 Oct 2011</codeddate> 
+  <newick>(a,(b,c)subclade)taxon;</newick> 
+  </pmmd>

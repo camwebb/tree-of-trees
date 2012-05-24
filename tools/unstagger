@@ -1,0 +1,28 @@
+#!/bin/gawk -f
+
+# Collapses all whitespace in the file
+# Cam Webb <cam@phylodiversity.net>
+
+BEGIN{
+  RS = "\x04";
+  ORS = ""; 
+}
+
+{
+  tree = $0;
+}
+
+END{
+  close(ARGV[1]);
+  system("mv -f " ARGV[1] " unstagger.tmp");
+  gsub(/[\t\n\ ]/ ,"", tree);
+  print tree > ARGV[1];
+  close(ARGV[1]);
+  getline tree2 < ARGV[1];
+  close(ARGV[1]);
+  if (tree == tree2) { system("rm -f unstagger.tmp") }
+  else
+  {
+    print "Unstaggering failed.  File " ARGV[1] " is now unstagger.tmp";
+  }
+}

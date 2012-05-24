@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+    <phyloname>malpighiales_apweb2009</phyloname>
+    <rootname>malpighiales</rootname>
+    <source>
+      <apweb>
+        <version>9</version>
+        <downdate>2009-10-22</downdate>
+      </apweb>
+    </source>
+    <notes>
+      APG3 includes Rafflesiaceae as sister to Euphorbiaceae and includes Calophyllaceae and Centroplacaceae as monophyletic families;
+      APG3 also combines Malesherbiaceae and Turneraceae within the Passifloraceae, and combines Medusagynaceae and Quiinaceae within the Ochnaceae;
+      topology in this file was also adjusted to reflect relationships from Stevens' APweb;
+      resolution below family level pruned
+    </notes>
+    <codedby>Steve Hovick</codedby>
+    <codeddate>2009-10-28</codeddate>
+  </pmmd> 

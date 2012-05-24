@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+    <phyloname>liliales_apweb2009</phyloname>
+    <rootname>liliales</rootname>
+    <source>
+      <apweb>
+        <version>9</version>
+        <downdate>2009-10-22</downdate>
+      </apweb>
+    </source>
+    <notes>
+      APG3 includes Luzuriagaceae within the Alstroemeriaceae;
+      the 2005 tree also did not include Petermanniaceae (Stevens does, and this topology agrees with his)
+    </notes>
+    <codedby>Steve Hovick</codedby>
+    <codeddate>2009-10-27</codeddate>
+  </pmmd> 

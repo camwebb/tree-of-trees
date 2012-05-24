@@ -1,0 +1,18 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>iridaceae_reeves2001</phyloname>
+        <rootname>iridaceae</rootname>
+        <source collapsed="N" pruned="N" plucked="Y" analysis="MP"
+	    consensus="no">
+          <pub>
+            <citation> Reeves, G. et al. 2001. Molecular systematics of Iridaceae: evidence from four plastid DNA regions. American Journal of Botany 88: 2074-2087. 
+         </citation>
+            <figure>4</figure>
+          </pub>
+        </source>
+        <notes>  One of the most parsimonious combined trees found by both the Fitch and SW analyses showing subfamilies (a) Iridoideae and Isophysidoideae and (b) Nivenioideae and Ixioideae. Fitch lengths are shown above the branches (ACCTRAN optimization). Bootstrap percentages with Fitch weights are shown below the branches. Branches not recovered in the strict consensus of only the Fitch trees are marked with open arrowheads, those not recovered in the strict consensus of both the Fitch and SW trees are marked with solid arrowheads.
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>10 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

@@ -1,0 +1,15 @@
+﻿  <?xml version="1.0" encoding="utf-8" ?> 
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>rutaceae_harbaugh2008</phyloname> 
+  <rootname>rutaceae</rootname> 
+ <source collapsed="Y" pruned="N" plucked="Y" analysis="MP" consensus="STRICT">
+<pub>
+  <citation>Harbaugh, D. T. et al. 2008. The Hawaiian Archipelago is a stepping stone for dispersal in the Pacific: an example from the plant genus Melicope (Rutaceae). Journal of Biogeography 36(2): 230-241.</citation> 
+  <figure>4</figure> 
+  </pub>
+  </source>
+  <notes>The internal transcribed spacer (ITS) strict-consensus maximum parsimony (MP) phylogeny using sequences generated in this study and obtained from GenBank. The genera are abbreviated with the following letters: A. Acronychia; E. Euodia; M. Melicope and P. Platydesma. Numbers above branches represent bootstrap values. Taxon names in bold italics represent samples sequenced in this study, whereas the others are samples obtained from GenBank. Along the right side are Melicope section names from Hartley (2000).</notes> 
+  <codedby>Megan Bartlett</codedby> 
+  <codeddate>10 Oct 2011</codeddate> 
+  <newick>(a,(b,c)subclade)taxon;</newick> 
+  </pmmd>

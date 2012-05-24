@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>quercus_bellarosa2005</phyloname>
+  <rootname>quercus</rootname>
+  <source collapsed="Y" pruned="Y" plucked="N" analysis="MP" consensus="STRICT">
+    <pub>
+      <citation>Bellarosa R. 2005. Utility of ITS Sequence data for
+      phylogenetic reconstruction of Italian Quercus
+      spp. Mol. Phylogenetics and Evolution. 34:355-370</citation>
+      <figure>5</figure>
+    </pub>
+  </source>
+  <notes>Caption: "Fig. 5. Consensus tree of 3064 maximum parsimony
+  trees produced with an analysis of ITS sequences of these study
+  (indicated in capital letters)together with species representative
+  of all infrageneric groups in Quercus. Bootstrap values are reported
+  on branches if higher than 50%."  Collapsed branches were
+  conflicting instances of the same species from different
+  locations(Quercus rugosa, Quercus robur and Quercus franetto) Pruned
+  branches included duplicated species from different locations with
+  no conflicting placement (Quercus cerris, Quercus suber, Quercus
+  ilex, Quercus pubescens)</notes>
+  <codedby>Karla Sartor</codedby>
+  <codeddate>2008-03-12</codeddate>
+</pmmd>

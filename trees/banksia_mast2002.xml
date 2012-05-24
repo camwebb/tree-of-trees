@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>banksia_mast2002</phyloname>
+  <rootname>banksia</rootname>
+  <source collapsed="N" pruned="N" plucked="N" analysis="MP" consensus="STRICT">
+    <pub>
+      <citation>
+	Mast, A. R. and Givnish, T. J. 2002. Historical Biogeography
+	and the origin of stomatal distributions in Banksia and
+	Dryandra (Proteaceae) based on their cpDNA phylogeny. American
+	Journal of Botany 89(8):1311-1323
+      </citation>
+      <figure>3</figure>
+    </pub>
+  </source>
+  <notes>
+    Strict consensus of 40 shortest trees (130 steps; CI 5 0.785, RI 5
+    0.961) found in MP analysis using data from the rp116 intron and
+    psbA/trnH spacer
+  </notes>
+  <codedby>Subekti Sulistyawati</codedby>
+  <codeddate>2008-10-24</codeddate>
+</pmmd>

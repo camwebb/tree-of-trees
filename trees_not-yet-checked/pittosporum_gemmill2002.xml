@@ -1,0 +1,20 @@
+﻿  <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>pittosporum_gemmill2002</phyloname>
+        <rootname>pittosporum</rootname>
+        <source collapsed="N" pruned="N" plucked="N" analysis="MP"
+	    consensus="STRICT">
+          <pub>
+            <citation>
+	      Gemmill, C. E. C. et al. 2002. Evolution of Insular Pacific Pittosporum (Pittosporaceae): Origin of the Hawaiian Radiation. Science 22:31-42.
+            </citation>
+            <figure>2a</figure>
+          </pub>
+        </source>
+        <notes>Maximum-parsimony strict consensus of two trees based on ITS sequences of 24 Pittosporum taxa. Numbers indicate
+bootstrap values based on 100 replicates.</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>25 Sep 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>
+

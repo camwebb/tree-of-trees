@@ -1,0 +1,20 @@
+﻿  <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>cyperaceae_simpson2007.c</phyloname>
+        <rootname>cyperaceae</rootname>
+        <source collapsed="Y" pruned="Y" plucked="Y" analysis="MP"
+	    consensus="no">
+          <pub>
+            <citation> 
+			Simpson, D. A. et al. 2007. PHYLOGENY OF CYPERACEAE BASED ON DNA SEQUENCE DATA—A NEW rbcL ANALYSIS. Aliso 23: 72-83.  
+            </citation>
+            <figure>1-3</figure>
+          </pub>
+        </source>
+        <notes> Fig. 1. A part of one of the 1370 most-parsimonious trees based on rbcL data. The arrows mark clades not recovered in the strict
+consensus tree. Branch lengths (ACCTRAN optimization) are given above each branch and bootstrap percentages are given below.
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>3 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>

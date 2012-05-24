@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>cunoniaceae_bradford2001</phyloname>
+  <rootname>cunoniaceae</rootname>
+  <source collapsed="N" plucked="Y" consensus="STRICT">
+    <pub>
+      <citation>Bradford, J C, and R W Barnes. 2001. Phylogenetics and
+        classification of Cunoniaceae (Oxalidales) using chloroplast
+        DNA sequences and morphology Systematic Botany 26: 354-385.
+      </citation>
+      <figure>4</figure>
+    </pub>
+  </source>
+  <notes>Strict consensus tree (solid lines) from a parsimony analysis
+    of morphological characters using a constraint tree (bold
+    branches) based on clades found in molecular analyses. M labels
+    those branches found in the strict consensus of an unconstrained
+    analysis of morphology, with the clade of Weinmannia sections not
+    resolved in the constrained analysis (dashed lines). DNA was
+    unavailable for taxa in bold. Small arrows indicate nodes not seen
+    in the strict consensus of molecular analyses. Tribes are in gray
+    boxes, with a list of morphological synapomorphies indicated for
+    each tribe. The form of flower-bearing axes is represented for
+    each genus or clade. Pullea is polymorphic, and Anodo- petalum has
+    solitary flowers or rarely 3-flowered cymes.
+  </notes>
+  <codedby>Cam Webb</codedby>
+  <codeddate>2004-12-31</codeddate>  
+</pmmd>

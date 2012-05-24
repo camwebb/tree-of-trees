@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>poaceae_gpwg2001x</phyloname>
+  <rootname>poaceae</rootname>
+  <source>
+	<pub>
+	  <citation>
+		GPWG 2001. Phylogeny and Subfamilial Classification of the
+		Grasses (Poaceae). Annals of the Missouri Botanical Garden
+		88(3): 373-457.
+	  </citation>
+	</pub>
+  </source>
+  <notes>
+	Copied from: http://www.umsl.edu/services/kellogg/gpwg/3.jpg.
+	Note that three basal clades in the GPWG Poaceae have been
+	removed to agree with the updated family
+	designations on APweb 2009: Flagellaria is in Flagellariaceae,
+	Joinvillea in Joinvilleaceae, and (Elegia,Baloskion) in
+	Restionaceae.
+  </notes>
+  <codedby>Cam Webb</codedby>
+  <codeddate>2009-11-10</codeddate>
+</pmmd> 

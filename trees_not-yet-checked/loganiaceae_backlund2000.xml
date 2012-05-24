@@ -1,0 +1,21 @@
+﻿ <?xml version="1.0" encoding="utf-8"?>
+      <pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+        <phyloname>loganiaceae_backlund2000</phyloname>
+        <rootname>loganiaceae</rootname>
+        <source collapsed="N" pruned="N" plucked="Y" analysis="MP"
+	    consensus="no">
+          <pub>
+            <citation> Backlund, M., Oxelman, B. and B. Bremer. 2000. Phylogenetic relationships within the Gentianales based on NDHF and RBCL sequences, with particular reference to the Loganiaceae. American Journal of Botany 87: 1029- 1048. 
+         </citation>
+            <figure>2</figure>
+          </pub>
+        </source>
+        <notes>  One of the most parsimonious trees from the unit-weighted analysis with the topology identical to the single most parsimonious tree from the successively reweighted analysis. 
+		Familial classification according to results from this and previous studies (Olmstead and Reeves, 1995  ; Oxelman, Backlund, and Bremer, 1999  ). 
+		Nodes with jackknife and bootstrap values >90% are indicated with thick lines. 
+		Taxa indicated by dots have previously been assigned to Loganiaceae by Leeuwenberg and Leenhouts (1980) 
+</notes>
+        <codedby>Megan Bartlett</codedby>
+        <codeddate>10 Oct 2011</codeddate>  
+        <newick>(a,(b,c)subclade)taxon;</newick>
+      </pmmd>
