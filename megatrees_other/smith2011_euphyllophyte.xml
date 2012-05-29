@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pmmd PUBLIC "-//Webb//RNC pmmd XML V0.3//EN" "http://svn.phylodiversity.net/tot/pmmd/pmmd.rnc" >
+<pmmd version="0.3" xmlns="http://svn.phylodiversity.net/tot/pmmd/">
+  <phyloname>smith2011_euphyllophyte</phyloname>
+  <rootname>euphyllophyte</rootname>
+  <source>
+    <pub>
+      <citation>
+        Smith SA, Beaulieu JM, Stamatakis A, Donoghue
+        MJ. 2011. Understanding angiosperm diversification using small
+        and large phylogenetic trees. American Journal of Botany
+        98(3): 404-414
+	  </citation>
+      <figure>final_tree.tre</figure>
+	  <doi>10.3732/ajb.1000481</doi>
+    </pub>
+  </source>
+  <notes>Downloaded from Data Dryad; doi:10.5061/dryad.8790</notes>
+</pmmd>

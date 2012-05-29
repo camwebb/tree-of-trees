@@ -43,7 +43,8 @@ start =
       ( element citation { text } | element bibtex { text } ),
 
         ## with an optional figure number 
-        element figure { text }?
+        element figure { text }?,
+        element doi { text }?
       } 
       | 
 
