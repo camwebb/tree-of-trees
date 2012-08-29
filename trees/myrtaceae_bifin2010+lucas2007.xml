@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>myrtaceae_bifin2010+lucas2007</phyloname>
+  <rootname>myrtaceae</rootname>
+  <source>
+    <pub>
+      <citation>
+		Biffin et al.  2010 (Annals of Botany 106: 79-93) and Lucas et
+		al. 2007 (Taxon 56: 1105-1128).
+      </citation>
+    </pub>
+  </source>
+  <notes>
+	Hand assembled; the species of polyphyletic genera were
+	represented with their epithet, in contrary to monophyletic genera
+	that were represented only by the genera name. In some cases,
+	polyphyletic genera contained clear resolved clades within it, in
+	this case each of them were numbered (i.e. myrcia1, myrcia2...).
+  </notes>
+  <codedby>Guilherme Seger</codedby>
+  <codeddate>2012-07-13</codeddate>  
+</pmmd>

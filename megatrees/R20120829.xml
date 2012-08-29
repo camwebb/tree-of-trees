@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd version="0.3" xmlns="http://svn.phylodiversity.net/tot/pmmd/">
+  <phyloname>R20120829</phyloname>
+  <rootname>euphyllophyte</rootname>
+  <source>
+	<megatree>Added Guilherme Seger's solanaceae and myrtaceae trees
+	</megatree>
+  </source>
+  <codedby>Cam Webb</codedby>
+  <codeddate>2012-08-29</codeddate>
+</pmmd>

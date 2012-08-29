@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd xmlns="http://svn.phylodiversity.net/tot/pmmd/" version="0.3">
+  <phyloname>solanaceae_olmstead2008+weese2007</phyloname>
+  <rootname>solanaceae</rootname>
+  <source>
+    <pub>
+      <citation>Olmstead et al. 2008 (Taxon 57: 1159-1181); Weese and
+      Bohs 2007 (Systematic Botany 32: 445-463)
+      </citation>
+    </pub>
+  </source>
+  <notes>
+	Hand assembled; the species of polyphyletic genera were
+	represented with their epithet, in contrary to monophyletic genera
+	that were represented only by the genera name. In some cases,
+	polyphyletic genera contained clear resolved clades within it, in
+	this case each of them were numbered (i.e. myrcia1, myrcia2...).
+  </notes>
+  <codedby>Guilherme Seger</codedby>
+  <codeddate>2012-07-13</codeddate>  
+</pmmd>
