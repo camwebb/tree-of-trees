@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmmd version="0.3" xmlns="http://svn.phylodiversity.net/tot/pmmd/">
+  <phyloname>R20160415</phyloname>
+  <rootname>angiosperms</rootname>
+  <source>
+	<megatree>A family megatree based on APG IV</megatree>
+  </source>
+  <codedby>Markus Gastauer</codedby>
+  <codeddate>2016-04-15</codeddate>
+</pmmd>
